@@ -4,7 +4,7 @@ PROMPT: Who wrote the play Romeo and Juliet, and in roughly which year was it fi
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/-\ 
+Loading model... |-\|/-\|/ 
 
 ▄▄ ▄▄
 ██ ██
@@ -31,7 +31,7 @@ available commands:
 > Who wrote the play Romeo and Juliet, and in roughly which year was it first performed? Answer in one or two sentences.
 Romeo and Juliet was written by William Shakespeare in 1597. It was first performed in 1597 at the Globe Theatre in London.
 
-[ Prompt: 33.9 t/s | Generation: 5.3 t/s ]
+[ Prompt: 89.7 t/s | Generation: 16.4 t/s ]
 
 
 Exiting...
@@ -40,4 +40,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=33.9 gen_tps=5.3 peak_rss_mb=577.2 wall_s=9.25
+prompt_eval_tps=89.7 gen_tps=16.4 peak_rss_mb=577.0 wall_s=3.60

@@ -31,7 +31,7 @@ available commands:
 > List exactly three colours, one per line, with no other text before or after the list.
 Red, Yellow, Blue
 
-[ Prompt: 42.9 t/s | Generation: 8.3 t/s ]
+[ Prompt: 95.6 t/s | Generation: 22.5 t/s ]
 
 
 Exiting...
@@ -40,4 +40,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=42.9 gen_tps=8.3 peak_rss_mb=576.9 wall_s=2.95
+prompt_eval_tps=95.6 gen_tps=22.5 peak_rss_mb=576.7 wall_s=1.95

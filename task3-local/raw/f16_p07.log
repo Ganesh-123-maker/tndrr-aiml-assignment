@@ -4,7 +4,7 @@ PROMPT: List exactly three colours, one per line, with no other text before or a
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/-\ 
+Loading model... |-\|/-\|/-\|/ 
 
 ▄▄ ▄▄
 ██ ██
@@ -31,7 +31,7 @@ available commands:
 > List exactly three colours, one per line, with no other text before or after the list.
 Red, Green, Blue
 
-[ Prompt: 47.2 t/s | Generation: 10.3 t/s ]
+[ Prompt: 52.4 t/s | Generation: 10.5 t/s ]
 
 
 Exiting...
@@ -40,4 +40,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=47.2 gen_tps=10.3 peak_rss_mb=1285.9 wall_s=2.80
+prompt_eval_tps=52.4 gen_tps=10.5 peak_rss_mb=1285.9 wall_s=2.85

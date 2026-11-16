@@ -4,7 +4,7 @@ PROMPT: Summarise this paragraph in one sentence: 'The Indian Space Research Org
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/-\|/ 
+Loading model... |-\|/-\|/ 
 
 ▄▄ ▄▄
 ██ ██
@@ -31,7 +31,7 @@ available commands:
 > Summarise this paragraph in one sentence: 'The Indian Space Research Organisation launched its first satellite, Aryabhata, in 1975. Over the following decades it built a series of launch vehicles, including the Polar Satellite Launch Vehicle, which became known for its reliability. In 2023, the Chandrayaan-3 mission soft-landed a rover near the Moon's south pole, making India the fourth country to land on the Moon.'
 The Indian Space Research Organisation launched Aryabhata, the first satellite, in 1975, and has since built a series of launch vehicles, including the Polar Satellite Launch Vehicle, which has become known for reliability. In 2023, India's Chandrayaan-3 mission landed a rover near the Moon's south pole, making it the fourth country to land on the Moon.
 
-[ Prompt: 47.8 t/s | Generation: 5.3 t/s ]
+[ Prompt: 59.0 t/s | Generation: 12.7 t/s ]
 
 
 Exiting...
@@ -40,4 +40,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=47.8 gen_tps=5.3 peak_rss_mb=1290.8 wall_s=19.30
+prompt_eval_tps=59.0 gen_tps=12.7 peak_rss_mb=1290.8 wall_s=9.50

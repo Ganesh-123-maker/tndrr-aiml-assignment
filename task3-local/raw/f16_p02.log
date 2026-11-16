@@ -4,7 +4,7 @@ PROMPT: A shop sells notebooks for 45 rupees each. If Priya buys 7 notebooks and
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/-\|/-\|/-\| 
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/ 
 
 ▄▄ ▄▄
 ██ ██
@@ -39,7 +39,7 @@ First, let's calculate the total cost of the notebooks. Each notebook costs 45 r
 
 Next, we subtract the total cost from the amount Priya paid. Priya paid with a
 
-[ Prompt: 42.9 t/s | Generation: 5.9 t/s ]
+[ Prompt: 58.7 t/s | Generation: 13.3 t/s ]
 
 
 Exiting...
@@ -48,4 +48,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=42.9 gen_tps=5.9 peak_rss_mb=1287.4 wall_s=25.40
+prompt_eval_tps=58.7 gen_tps=13.3 peak_rss_mb=1287.0 wall_s=14.33

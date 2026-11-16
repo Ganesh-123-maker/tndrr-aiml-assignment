@@ -4,7 +4,7 @@ PROMPT: Name five planets in our solar system, ordered from closest to the Sun t
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/ 
+Loading model... |-\|/-\|/-\ 
 
 ▄▄ ▄▄
 ██ ██
@@ -35,7 +35,7 @@ available commands:
 4. Mars
 5. Jupiter
 
-[ Prompt: 40.2 t/s | Generation: 8.6 t/s ]
+[ Prompt: 35.0 t/s | Generation: 5.8 t/s ]
 
 
 Exiting...
@@ -44,4 +44,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=40.2 gen_tps=8.6 peak_rss_mb=1286.2 wall_s=4.50
+prompt_eval_tps=35.0 gen_tps=5.8 peak_rss_mb=1286.2 wall_s=6.00

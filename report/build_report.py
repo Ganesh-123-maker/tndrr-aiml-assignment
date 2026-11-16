@@ -185,10 +185,10 @@ story.append(P("<b>Setup.</b> Qwen2.5-0.5B-Instruct on CPU with llama.cpp (prebu
                "body"))
 story.append(tbl(
     ["Setting", "File size", "Generation", "Prompt-eval", "Peak RSS", "Wall (10 prompts)"],
-    [["F16", "1,266.4 MB", "7.95 tok/s (med 7.9)", "40.5 tok/s (med 47.0)",
-      "1,290.8 MB", "142.9 s"],
-     ["Q4_K_M", "491.4 MB", "<b>10.03 tok/s</b> (med 9.6, +26%)",
-      "52.3 tok/s (med 46.1)", "<b>581.6 MB</b>", "90.1 s"]],
+    [["F16", "1,266.4 MB", "9.79 tok/s (med 9.6)", "48.0 tok/s (med 50.7)",
+      "1,290.8 MB", "111.9 s"],
+     ["Q4_K_M", "491.4 MB", "<b>16.51 tok/s</b> (med 16.4, +69%)",
+      "66.8 tok/s (med 60.8)", "<b>581.5 MB</b>", "62.8 s"]],
     [20*mm, 24*mm, 34*mm, 34*mm, 20*mm, 26*mm]))
 story.append(P("<b>Quality (same 10 prompts).</b> The two settings barely differ — "
                "they agree almost everywhere, including on the same mistakes: both "

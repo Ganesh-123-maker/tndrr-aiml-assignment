@@ -4,7 +4,7 @@ PROMPT: Write a Python function called is_even that returns True if a number is 
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/-\|/ 
+Loading model... |-\|/-\|/ 
 
 ▄▄ ▄▄
 ██ ██
@@ -34,7 +34,7 @@ def is_even(num):
     return num % 2 == 0
 ```
 
-[ Prompt: 40.0 t/s | Generation: 9.9 t/s ]
+[ Prompt: 62.4 t/s | Generation: 21.3 t/s ]
 
 
 Exiting...
@@ -43,4 +43,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=40.0 gen_tps=9.9 peak_rss_mb=577.4 wall_s=4.85
+prompt_eval_tps=62.4 gen_tps=21.3 peak_rss_mb=577.3 wall_s=2.75

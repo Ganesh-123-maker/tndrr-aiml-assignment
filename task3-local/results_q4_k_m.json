@@ -11,92 +11,92 @@
   },
   "n_prompts": 10,
   "prompt_eval_tps": {
-    "mean": 52.32,
-    "median": 46.05,
-    "min": 33.9,
-    "max": 99.3,
+    "mean": 66.81,
+    "median": 60.8,
+    "min": 35.8,
+    "max": 103.9,
     "n": 10
   },
   "gen_tps": {
-    "mean": 10.03,
-    "median": 9.6,
-    "min": 5.3,
-    "max": 16.1,
+    "mean": 16.51,
+    "median": 16.35,
+    "min": 11.7,
+    "max": 22.5,
     "n": 10
   },
-  "peak_rss_mb": 581.6,
-  "peak_rss_mb_mean": 577.7,
-  "total_wall_s": 90.1,
+  "peak_rss_mb": 581.5,
+  "peak_rss_mb_mean": 577.6,
+  "total_wall_s": 62.8,
   "per_prompt": [
     {
       "id": "p01",
-      "prompt_eval_tps": 51.6,
-      "gen_tps": 10.7,
+      "prompt_eval_tps": 35.8,
+      "gen_tps": 11.7,
       "gen_tokens": null,
-      "peak_rss_mb": 577.0
+      "peak_rss_mb": 576.8
     },
     {
       "id": "p02",
-      "prompt_eval_tps": 99.3,
-      "gen_tps": 16.1,
+      "prompt_eval_tps": 45.3,
+      "gen_tps": 12.0,
       "gen_tokens": null,
-      "peak_rss_mb": 578.5
+      "peak_rss_mb": 578.4
     },
     {
       "id": "p03",
-      "prompt_eval_tps": 45.8,
-      "gen_tps": 9.4,
+      "prompt_eval_tps": 58.7,
+      "gen_tps": 16.7,
       "gen_tokens": null,
-      "peak_rss_mb": 581.6
+      "peak_rss_mb": 581.5
     },
     {
       "id": "p04",
-      "prompt_eval_tps": 45.7,
-      "gen_tps": 8.4,
+      "prompt_eval_tps": 69.2,
+      "gen_tps": 15.6,
       "gen_tokens": null,
-      "peak_rss_mb": 577.4
+      "peak_rss_mb": 577.2
     },
     {
       "id": "p05",
-      "prompt_eval_tps": 52.4,
-      "gen_tps": 9.8,
+      "prompt_eval_tps": 59.2,
+      "gen_tps": 16.7,
       "gen_tokens": null,
-      "peak_rss_mb": 576.9
+      "peak_rss_mb": 576.8
     },
     {
       "id": "p06",
-      "prompt_eval_tps": 40.0,
-      "gen_tps": 9.9,
+      "prompt_eval_tps": 62.4,
+      "gen_tps": 21.3,
       "gen_tokens": null,
-      "peak_rss_mb": 577.4
+      "peak_rss_mb": 577.3
     },
     {
       "id": "p07",
-      "prompt_eval_tps": 42.9,
-      "gen_tps": 8.3,
+      "prompt_eval_tps": 95.6,
+      "gen_tps": 22.5,
+      "gen_tokens": null,
+      "peak_rss_mb": 576.7
+    },
+    {
+      "id": "p08",
+      "prompt_eval_tps": 48.3,
+      "gen_tps": 15.9,
       "gen_tokens": null,
       "peak_rss_mb": 576.9
     },
     {
-      "id": "p08",
-      "prompt_eval_tps": 65.3,
-      "gen_tps": 13.4,
+      "id": "p09",
+      "prompt_eval_tps": 103.9,
+      "gen_tps": 16.3,
       "gen_tokens": null,
       "peak_rss_mb": 577.1
     },
     {
-      "id": "p09",
-      "prompt_eval_tps": 46.3,
-      "gen_tps": 9.0,
-      "gen_tokens": null,
-      "peak_rss_mb": 577.2
-    },
-    {
       "id": "p10",
-      "prompt_eval_tps": 33.9,
-      "gen_tps": 5.3,
+      "prompt_eval_tps": 89.7,
+      "gen_tps": 16.4,
       "gen_tokens": null,
-      "peak_rss_mb": 577.2
+      "peak_rss_mb": 577.0
     }
   ]
 }

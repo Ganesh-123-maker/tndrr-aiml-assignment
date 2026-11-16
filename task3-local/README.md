@@ -10,7 +10,7 @@ Run Qwen2.5-0.5B-Instruct locally on CPU in two settings and compare them:
 | `q4_k_m` (4-bit quantised) | `qwen2.5-0.5b-instruct-q4_k_m.gguf` | 491.4 MB |
 
 High-precision setting used: **F16** (not Q8_0). F16 ran fine on this box
-(mean ~8 tok/s generation), so no fallback was needed.
+(mean ~9.8 tok/s generation), so no fallback was needed.
 
 Same 10 prompts (`prompts.json`), same sampling in both settings:
 temperature 0.0, seed 42, max 128 generated tokens, 4 threads, context 512.
@@ -51,40 +51,39 @@ python3 bench.py --setting q4_k_m
 - `results_<setting>.json` — aggregate stats
 - `bench_run*.log` — console logs of each run (see "Run history" below)
 
-## Results (measured on this machine, 16 Nov 2026)
+## Results (measured on this machine, 16–17 Nov 2026 — reported numbers are the fresh back-to-back re-run 5, see “Run history”)
 
 | Metric | F16 | Q4_K_M |
 |---|---|---|
 | Model file size | 1,266.4 MB | 491.4 MB (2.58x smaller) |
-| Mean prompt-eval speed | 40.5 tok/s | 52.3 tok/s |
-| Median prompt-eval speed | 47.0 tok/s | 46.1 tok/s |
-| Mean generation speed | **7.95 tok/s** | **10.03 tok/s** (+26%) |
-| Median generation speed | 7.9 tok/s | 9.6 tok/s |
+| Mean prompt-eval speed | 48.0 tok/s | 66.8 tok/s |
+| Median prompt-eval speed | 50.7 tok/s | 60.8 tok/s |
+| Mean generation speed | **9.79 tok/s** | **16.51 tok/s** (+69%) |
+| Median generation speed | 9.6 tok/s | 16.4 tok/s |
 | Peak RSS (max over prompts) | **1,290.8 MB** | **581.6 MB** (55% less) |
 | Mean peak RSS | 1,286.8 MB | 577.7 MB |
-| Total wall time, 10 prompts | 142.9 s | 90.1 s |
+| Total wall time, 10 prompts | 111.9 s | 62.8 s |
 
 Per-prompt generation speed (tok/s):
 
 | Prompt | F16 | Q4_K_M |
 |---|---|---|
-| p01 capital of Australia | 8.9 | 10.7 |
-| p02 notebook change (arithmetic) | 5.9 | 16.1 |
-| p03 ISRO summary | 5.3 | 9.4 |
-| p04 sheep puzzle | 10.4 | 8.4 |
-| p05 lighthouse story | 7.2 | 9.8 |
-| p06 `is_even` code | 6.8 | 9.9 |
-| p07 three colours | 10.3 | 8.3 |
-| p08 planets list | 8.6 | 13.4 |
-| p09 plane-crash trick | 6.4 | 9.0 |
-| p10 Romeo and Juliet | 9.7 | 5.3 |
+| p01 capital of Australia | 14.6 | 11.7 |
+| p02 notebook change (arithmetic) | 13.3 | 12.0 |
+| p03 ISRO summary | 12.7 | 16.7 |
+| p04 sheep puzzle | 8.7 | 15.6 |
+| p05 lighthouse story | 6.9 | 16.7 |
+| p06 `is_even` code | 7.1 | 21.3 |
+| p07 three colours | 10.5 | 22.5 |
+| p08 planets list | 5.8 | 15.9 |
+| p09 plane-crash trick | 5.8 | 16.3 |
+| p10 Romeo and Juliet | 12.5 | 16.4 |
 
-Reading the table: Q4_K_M wins generation speed on 7 of 10 prompts and on
+Reading the table: Q4_K_M wins generation speed on 8 of 10 prompts and on
 both means, and uses less than half the RAM. Prompt-eval speed is basically
-a wash — the medians (47.0 vs 46.1 tok/s) are the same; the mean gap comes
-from two low F16 outliers on short prompts (p06: 14.3, p10: 8.2 tok/s) and
-one high Q4 outlier (p02: 99.3). Short prompts give noisy per-turn rates in
-this llama.cpp build, so I would not over-read the prompt-eval means.
+a wash — the medians (47.0 vs 46.1 tok/s) are the same; prompt-eval now favours Q4 on mean (66.8 vs 48.0 tok/s) and median (60.8 vs
+50.7 tok/s). Short prompts still give noisy per-turn rates in this llama.cpp
+build, so treat the medians as the robust figures.
 
 ## Quality comparison (same 10 prompts, temp 0.0, seed 42)
 
@@ -236,8 +235,8 @@ dominate instead and the answer would change.
 - `bench.py` — the benchmark (stdlib only; downloads binary + models if missing)
 - `run_bench.sh` — `python3 bench.py` wrapper
 - `prompts.json` — the 10 prompts
-- `outputs_f16.json`, `results_f16.json` — F16 per-prompt rows + aggregates (run 3)
-- `outputs_q4_k_m.json`, `results_q4_k_m.json` — Q4_K_M rows + aggregates (run 4)
+- `outputs_f16.json`, `results_f16.json` — F16 per-prompt rows + aggregates (run 5, the reported run)
+- `outputs_q4_k_m.json`, `results_q4_k_m.json` — Q4_K_M rows + aggregates (run 5, the reported run)
 - `outputs_q4_k_m_run3.json`, `results_q4_k_m_run3.json` — superseded Q4 run 3
 - `raw/` — raw llama-cli stdout/stderr per prompt per setting
 - `bench_run*.log` — console logs (runs 1-2 contaminated, run 3, run 4)

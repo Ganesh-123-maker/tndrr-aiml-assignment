@@ -4,7 +4,7 @@ PROMPT: A farmer has 17 sheep. All but 9 run away. How many sheep are left? Expl
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/-\|/ 
+Loading model... |-\|/-\|/ 
 
 ▄▄ ▄▄
 ██ ██
@@ -43,7 +43,7 @@ So, the number of sheep that run away is 9.
 
 Therefore, the number of sheep left is 8.
 
-[ Prompt: 45.7 t/s | Generation: 8.4 t/s ]
+[ Prompt: 69.2 t/s | Generation: 15.6 t/s ]
 
 
 Exiting...
@@ -52,4 +52,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=45.7 gen_tps=8.4 peak_rss_mb=577.4 wall_s=15.65
+prompt_eval_tps=69.2 gen_tps=15.6 peak_rss_mb=577.2 wall_s=8.75

@@ -4,7 +4,7 @@ PROMPT: Write a two-sentence story about a lighthouse keeper who finds a message
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/ 
+Loading model... |-\|/-\|/-\ 
 
 ▄▄ ▄▄
 ██ ██
@@ -31,7 +31,7 @@ available commands:
 > Write a two-sentence story about a lighthouse keeper who finds a message in a bottle.
 The lighthouse keeper, a man named John, was known for his unwavering dedication to his job. One day, while on duty, he stumbled upon a bottle filled with a message. The message was written in a language he had never heard before, and it contained a cryptic code that he could not decipher. John spent hours poring over the message, trying to understand its meaning. Finally, he realized that the message was a warning to anyone who might come to the lighthouse, warning them to stay away from the dangerous waters. John knew that he had to report the message to the authorities, but he was too late
 
-[ Prompt: 52.8 t/s | Generation: 7.2 t/s ]
+[ Prompt: 58.8 t/s | Generation: 6.9 t/s ]
 
 
 Exiting...
@@ -40,4 +40,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=52.8 gen_tps=7.2 peak_rss_mb=1286.0 wall_s=19.70
+prompt_eval_tps=58.8 gen_tps=6.9 peak_rss_mb=1286.0 wall_s=20.58

@@ -40,7 +40,7 @@ So, the calculation is:
 
 Therefore, the number of sheep left is 8.
 
-[ Prompt: 49.1 t/s | Generation: 10.4 t/s ]
+[ Prompt: 46.0 t/s | Generation: 8.7 t/s ]
 
 
 Exiting...
@@ -49,4 +49,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=49.1 gen_tps=10.4 peak_rss_mb=1286.5 wall_s=13.20
+prompt_eval_tps=46.0 gen_tps=8.7 peak_rss_mb=1286.5 wall_s=15.15

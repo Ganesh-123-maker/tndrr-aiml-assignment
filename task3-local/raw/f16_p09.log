@@ -31,7 +31,7 @@ available commands:
 > If a plane crashes exactly on the border between India and Nepal, where do they bury the survivors? Answer carefully.
 If a plane crashes exactly on the border between India and Nepal, the survivors would be buried in the border area between the two countries. This is because the border between India and Nepal is a natural boundary, and the plane would have to land in the border area to be able to safely land and safely land again. The plane would then be transported to a nearby airport or military base for further handling and burial. It's important to note that the exact location of the border between India and Nepal is not known, and the plane would need to be carefully navigated to reach the border area.
 
-[ Prompt: 46.7 t/s | Generation: 6.4 t/s ]
+[ Prompt: 30.3 t/s | Generation: 5.8 t/s ]
 
 
 Exiting...
@@ -40,4 +40,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=46.7 gen_tps=6.4 peak_rss_mb=1286.4 wall_s=21.00
+prompt_eval_tps=30.3 gen_tps=5.8 peak_rss_mb=1286.2 wall_s=23.45

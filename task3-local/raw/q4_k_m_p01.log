@@ -31,7 +31,7 @@ available commands:
 > What is the capital of Australia, and in which state or territory is it located? Answer in one sentence.
 The capital of Australia is Canberra, located in the state of Victoria.
 
-[ Prompt: 51.6 t/s | Generation: 10.7 t/s ]
+[ Prompt: 35.8 t/s | Generation: 11.7 t/s ]
 
 
 Exiting...
@@ -40,4 +40,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=51.6 gen_tps=10.7 peak_rss_mb=577.0 wall_s=4.88
+prompt_eval_tps=35.8 gen_tps=11.7 peak_rss_mb=576.8 wall_s=4.99

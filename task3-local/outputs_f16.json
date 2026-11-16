@@ -5,11 +5,11 @@
     "prompt": "What is the capital of Australia, and in which state or territory is it located? Answer in one sentence.",
     "output": "The capital of Australia is Canberra, located in the state of New South Wales.",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 55.5,
+    "prompt_eval_tps": 37.9,
     "gen_tokens": null,
-    "gen_tps": 8.9,
-    "peak_rss_mb": 1286.2,
-    "wall_s": 4.62
+    "gen_tps": 14.6,
+    "peak_rss_mb": 1211.9,
+    "wall_s": 9.32
   },
   {
     "id": "p02",
@@ -17,11 +17,11 @@
     "prompt": "A shop sells notebooks for 45 rupees each. If Priya buys 7 notebooks and pays with a 500-rupee note, how much change does she get? Show the calculation.",
     "output": "To calculate the change Priya gets, we need to follow these steps:\n\n1. Determine the total cost of the notebooks.\n2. Subtract the total cost from the amount Priya paid.\n\nFirst, let's calculate the total cost of the notebooks. Each notebook costs 45 rupees, and Priya buys 7 notebooks. So, the total cost is:\n\\[ 45 \\text{ rupees/notebook} \\times 7 \\text{ notebooks} = 315 \\text{ rupees} \\]\n\nNext, we subtract the total cost from the amount Priya paid. Priya paid with a",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 42.9,
+    "prompt_eval_tps": 58.7,
     "gen_tokens": null,
-    "gen_tps": 5.9,
-    "peak_rss_mb": 1287.4,
-    "wall_s": 25.4
+    "gen_tps": 13.3,
+    "peak_rss_mb": 1287.0,
+    "wall_s": 14.33
   },
   {
     "id": "p03",
@@ -29,11 +29,11 @@
     "prompt": "Summarise this paragraph in one sentence: 'The Indian Space Research Organisation launched its first satellite, Aryabhata, in 1975. Over the following decades it built a series of launch vehicles, including the Polar Satellite Launch Vehicle, which became known for its reliability. In 2023, the Chandrayaan-3 mission soft-landed a rover near the Moon's south pole, making India the fourth country to land on the Moon.'",
     "output": "The Indian Space Research Organisation launched Aryabhata, the first satellite, in 1975, and has since built a series of launch vehicles, including the Polar Satellite Launch Vehicle, which has become known for reliability. In 2023, India's Chandrayaan-3 mission landed a rover near the Moon's south pole, making it the fourth country to land on the Moon.",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 47.8,
+    "prompt_eval_tps": 59.0,
     "gen_tokens": null,
-    "gen_tps": 5.3,
+    "gen_tps": 12.7,
     "peak_rss_mb": 1290.8,
-    "wall_s": 19.3
+    "wall_s": 9.5
   },
   {
     "id": "p04",
@@ -41,11 +41,11 @@
     "prompt": "A farmer has 17 sheep. All but 9 run away. How many sheep are left? Explain your reasoning briefly.",
     "output": "To determine how many sheep are left, we need to subtract the number of sheep that run away from the total number of sheep. Here's the step-by-step reasoning:\n\n1. The farmer initially has 17 sheep.\n2. All but 9 sheep run away.\n3. To find out how many sheep are left, we subtract the number of sheep that run away from the initial number of sheep.\n\nSo, the calculation is:\n\\[ 17 - 9 = 8 \\]\n\nTherefore, the number of sheep left is 8.",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 49.1,
+    "prompt_eval_tps": 46.0,
     "gen_tokens": null,
-    "gen_tps": 10.4,
+    "gen_tps": 8.7,
     "peak_rss_mb": 1286.5,
-    "wall_s": 13.2
+    "wall_s": 15.15
   },
   {
     "id": "p05",
@@ -53,11 +53,11 @@
     "prompt": "Write a two-sentence story about a lighthouse keeper who finds a message in a bottle.",
     "output": "The lighthouse keeper, a man named John, was known for his unwavering dedication to his job. One day, while on duty, he stumbled upon a bottle filled with a message. The message was written in a language he had never heard before, and it contained a cryptic code that he could not decipher. John spent hours poring over the message, trying to understand its meaning. Finally, he realized that the message was a warning to anyone who might come to the lighthouse, warning them to stay away from the dangerous waters. John knew that he had to report the message to the authorities, but he was too late",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 52.8,
+    "prompt_eval_tps": 58.8,
     "gen_tokens": null,
-    "gen_tps": 7.2,
+    "gen_tps": 6.9,
     "peak_rss_mb": 1286.0,
-    "wall_s": 19.7
+    "wall_s": 20.58
   },
   {
     "id": "p06",
@@ -65,11 +65,11 @@
     "prompt": "Write a Python function called is_even that returns True if a number is even and False otherwise. Give only the code, no explanation.",
     "output": "```python\ndef is_even(num):\n    return num % 2 == 0\n```",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 14.3,
+    "prompt_eval_tps": 53.4,
     "gen_tokens": null,
-    "gen_tps": 6.8,
+    "gen_tps": 7.1,
     "peak_rss_mb": 1286.5,
-    "wall_s": 8.64
+    "wall_s": 4.89
   },
   {
     "id": "p07",
@@ -77,11 +77,11 @@
     "prompt": "List exactly three colours, one per line, with no other text before or after the list.",
     "output": "Red, Green, Blue",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 47.2,
+    "prompt_eval_tps": 52.4,
     "gen_tokens": null,
-    "gen_tps": 10.3,
+    "gen_tps": 10.5,
     "peak_rss_mb": 1285.9,
-    "wall_s": 2.8
+    "wall_s": 2.85
   },
   {
     "id": "p08",
@@ -89,11 +89,11 @@
     "prompt": "Name five planets in our solar system, ordered from closest to the Sun to farthest, as a numbered list.",
     "output": "1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 40.2,
+    "prompt_eval_tps": 35.0,
     "gen_tokens": null,
-    "gen_tps": 8.6,
+    "gen_tps": 5.8,
     "peak_rss_mb": 1286.2,
-    "wall_s": 4.5
+    "wall_s": 6.0
   },
   {
     "id": "p09",
@@ -101,11 +101,11 @@
     "prompt": "If a plane crashes exactly on the border between India and Nepal, where do they bury the survivors? Answer carefully.",
     "output": "If a plane crashes exactly on the border between India and Nepal, the survivors would be buried in the border area between the two countries. This is because the border between India and Nepal is a natural boundary, and the plane would have to land in the border area to be able to safely land and safely land again. The plane would then be transported to a nearby airport or military base for further handling and burial. It's important to note that the exact location of the border between India and Nepal is not known, and the plane would need to be carefully navigated to reach the border area.",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 46.7,
+    "prompt_eval_tps": 30.3,
     "gen_tokens": null,
-    "gen_tps": 6.4,
-    "peak_rss_mb": 1286.4,
-    "wall_s": 21.0
+    "gen_tps": 5.8,
+    "peak_rss_mb": 1286.2,
+    "wall_s": 23.45
   },
   {
     "id": "p10",
@@ -113,10 +113,10 @@
     "prompt": "Who wrote the play Romeo and Juliet, and in roughly which year was it first performed? Answer in one or two sentences.",
     "output": "Romeo and Juliet was written by William Shakespeare in 1597. It was first performed in 1597 at the Globe Theatre in London.",
     "prompt_eval_tokens": null,
-    "prompt_eval_tps": 8.2,
+    "prompt_eval_tps": 48.9,
     "gen_tokens": null,
-    "gen_tps": 9.7,
-    "peak_rss_mb": 1286.3,
-    "wall_s": 23.75
+    "gen_tps": 12.5,
+    "peak_rss_mb": 1286.5,
+    "wall_s": 5.84
   }
 ]

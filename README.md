@@ -50,8 +50,8 @@ both settings (temp 0.0, seed 42, 128 tokens):
 
 | Setting | Size | Generation | Prompt-eval | Peak RSS |
 |---|---|---|---|---|
-| F16 | 1,266.4 MB | 7.95 tok/s (median 7.9) | 40.5 tok/s (median 47.0) | 1,290.8 MB |
-| Q4_K_M | 491.4 MB | **10.03 tok/s** (median 9.6, +26%) | 52.3 tok/s (median 46.1) | **581.6 MB** |
+| F16 | 1,266.4 MB | 9.79 tok/s (median 9.6) | 48.0 tok/s (median 50.7) | 1,290.8 MB |
+| Q4_K_M | 491.4 MB | **16.51 tok/s** (median 16.4, +69%) | 66.8 tok/s (median 60.8) | **581.5 MB** |
 
 Quality barely differs — the two settings agree almost everywhere,
 including on the same mistakes. Serving plan (20 users, one 24 GB GPU):

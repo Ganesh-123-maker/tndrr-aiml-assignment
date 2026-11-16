@@ -4,7 +4,7 @@ PROMPT: What is the capital of Australia, and in which state or territory is it 
 --- STDOUT (raw llama-cli output) ---
 
 
-Loading model... |-\|/-\|/-\|/-\|/ 
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\ 
 
 ▄▄ ▄▄
 ██ ██
@@ -31,7 +31,7 @@ available commands:
 > What is the capital of Australia, and in which state or territory is it located? Answer in one sentence.
 The capital of Australia is Canberra, located in the state of New South Wales.
 
-[ Prompt: 55.5 t/s | Generation: 8.9 t/s ]
+[ Prompt: 37.9 t/s | Generation: 14.6 t/s ]
 
 
 Exiting...
@@ -40,4 +40,4 @@ Exiting...
 --- STDERR ---
 
 --- PARSED ---
-prompt_eval_tps=55.5 gen_tps=8.9 peak_rss_mb=1286.2 wall_s=4.62
+prompt_eval_tps=37.9 gen_tps=14.6 peak_rss_mb=1211.9 wall_s=9.32
