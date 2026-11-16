@@ -1,0 +1,47 @@
+CMD settings: temp=0.0 seed=42 n=128 threads=4 ctx=512
+PROMPT: Name five planets in our solar system, ordered from closest to the Sun to farthest, as a numbered list.
+
+--- STDOUT (raw llama-cli output) ---
+
+
+Loading model... |-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12441-164ab018f
+model      : /home/hatch/workspace/tndrr-aiml-assignment/task3-local/models/qwen2.5-0.5b-instruct-q4_k_m.gguf
+ftype      : Q4_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Name five planets in our solar system, ordered from closest to the Sun to farthest, as a numbered list.
+1. Mercury
+2. Venus
+3. Earth
+4. Mars
+5. Jupiter
+
+[ Prompt: 65.3 t/s | Generation: 13.4 t/s ]
+
+
+Exiting...
+
+
+--- STDERR ---
+
+--- PARSED ---
+prompt_eval_tps=65.3 gen_tps=13.4 peak_rss_mb=577.1 wall_s=3.50

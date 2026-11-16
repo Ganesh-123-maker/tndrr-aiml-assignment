@@ -1,0 +1,43 @@
+CMD settings: temp=0.0 seed=42 n=128 threads=4 ctx=512
+PROMPT: List exactly three colours, one per line, with no other text before or after the list.
+
+--- STDOUT (raw llama-cli output) ---
+
+
+Loading model... |-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12441-164ab018f
+model      : /home/hatch/workspace/tndrr-aiml-assignment/task3-local/models/qwen2.5-0.5b-instruct-q4_k_m.gguf
+ftype      : Q4_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> List exactly three colours, one per line, with no other text before or after the list.
+Red, Yellow, Blue
+
+[ Prompt: 42.9 t/s | Generation: 8.3 t/s ]
+
+
+Exiting...
+
+
+--- STDERR ---
+
+--- PARSED ---
+prompt_eval_tps=42.9 gen_tps=8.3 peak_rss_mb=576.9 wall_s=2.95

@@ -1,0 +1,1406 @@
+{
+  "k": 5,
+  "n": 15,
+  "by_chunk_size": {
+    "256": {
+      "chunk_size": 256,
+      "k": 5,
+      "n": 15,
+      "hits": 12,
+      "recall_at_k": 0.8,
+      "recall_at_1": 0.3333,
+      "per_question": [
+        {
+          "id": "q01",
+          "question": "Which computer was the first programmable, electronic, general-purpose digital computer, and when was it completed?",
+          "source_doc": "ENIAC",
+          "hit_at_k": false,
+          "hit_rank": null,
+          "top1_doc": "History of computing",
+          "top1_score": 0.6652,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6652,
+              "doc_title": "History of computing",
+              "chunk_id": "history_of_computing_c12",
+              "snippet": "intended to solve systems of linear equations, though it was not programmable. the computer was never truly completed due to atanasoff ' s departure from iowa state university in 1942 to work for the "
+            },
+            {
+              "rank": 2,
+              "score": 0.6506,
+              "doc_title": "Personal computer",
+              "chunk_id": "personal_computer_c4",
+              "snippet": "##cessor, the intel 4004, in 1971. the first microcomputers, based on microprocessors, were developed during the early 1970s. widespread commercial availability of microprocessors, from the mid - 1970"
+            },
+            {
+              "rank": 3,
+              "score": 0.6407,
+              "doc_title": "History of computing",
+              "chunk_id": "history_of_computing_c11",
+              "snippet": "an abstract computing machine operating on a one - dimensional tape and a universal machine capable of imitating any other such machine. the first digital electronic computer was developed between apr"
+            },
+            {
+              "rank": 4,
+              "score": 0.637,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c20",
+              "snippet": "program ) that details the computation. the theoretical basis for the stored - program computer was laid out by turing in his 1936 paper. in 1945, turing joined the national physical laboratory and be"
+            },
+            {
+              "rank": 5,
+              "score": 0.6145,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c0",
+              "snippet": "a computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations ( computation ). modern digital electronic computers can perform generic sets of"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "question": "What devices did Turing introduce in his 1936 paper on the limits of computation?",
+          "source_doc": "Alan Turing",
+          "hit_at_k": true,
+          "hit_rank": 1,
+          "top1_doc": "Alan Turing",
+          "top1_score": 0.671,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.671,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c12",
+              "snippet": "so far as to say that if turing ' s work had been published before lindeberg ' s, it would have been \" an important event in the mathematical literature of that year \". between early 1935 and early 19"
+            },
+            {
+              "rank": 2,
+              "score": 0.6486,
+              "doc_title": "History of computing",
+              "chunk_id": "history_of_computing_c10",
+              "snippet": "valve can be used as a logic gate. ludwig wittgenstein introduced a version of the 16 - row truth table as proposition 5. 101 of tractatus logico - philosophicus ( 1921 ). walther bothe, inventor of t"
+            },
+            {
+              "rank": 3,
+              "score": 0.6285,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c36",
+              "snippet": "example, if a catalyst a is required for a certain chemical reaction to take place, and if the reaction produced more of the catalyst a, then we say that the reaction is autocatalytic, and there is po"
+            },
+            {
+              "rank": 4,
+              "score": 0.6168,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c19",
+              "snippet": "\" universal computing machine \" and that is now known as a universal turing machine. he proved that such a machine is capable of computing anything that is computable by executing instructions ( progr"
+            },
+            {
+              "rank": 5,
+              "score": 0.6149,
+              "doc_title": "Algorithm",
+              "chunk_id": "algorithm_c7",
+              "snippet": ". then came the teleprinter ( c. 1910 ) with its punched - paper use of baudot code on tape. telephone - switching networks of electromechanical relays were invented in 1835. these led to the inventio"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "question": "What is Ada Lovelace chiefly known for?",
+          "source_doc": "Ada Lovelace",
+          "hit_at_k": false,
+          "hit_rank": null,
+          "top1_doc": "Ada Lovelace",
+          "top1_score": 0.5903,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.5903,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c35",
+              "snippet": "the lovelace lectures at durham university. the ada lovelace award awarded by the association for women in computing the ada initiative supporting open technology and women is named after her. ada lov"
+            },
+            {
+              "rank": 2,
+              "score": 0.5817,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c39",
+              "snippet": "s wife and daughter : annabella milbanke and ada lovelace, pegasus, 547 pp. jenny uglow ( 22 november 2018 ), \" stepping out of byron ' s shadow \", the new york review of books, vol. lxv, no. 18, pp. "
+            },
+            {
+              "rank": 3,
+              "score": 0.5766,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c27",
+              "snippet": ". events have included wikipedia edit - a - thons with the aim of improving the representation of women on wikipedia in terms of articles and editors to reduce unintended gender bias on wikipedia. the"
+            },
+            {
+              "rank": 4,
+              "score": 0.5746,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c33",
+              "snippet": "in her 2025 collection of poems about women scientists, the path of most resistance. film and television in the 1997 film conceiving ada, a computer scientist obsessed with ada finds a way of communic"
+            },
+            {
+              "rank": 5,
+              "score": 0.5683,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c9",
+              "snippet": "s own designs. they had three children : byron ( born 1836 ) ; anne isabella ( called annabella, born 1837 ) ; and ralph gordon ( born 1839 ). immediately after the birth of annabella, lady king exper"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "question": "Who is credited with inventing the first mechanical computer, and what was it called?",
+          "source_doc": "Charles Babbage",
+          "hit_at_k": true,
+          "hit_rank": 4,
+          "top1_doc": "Computer",
+          "top1_score": 0.6408,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6408,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c9",
+              "snippet": ". starting in the 1920s, vannevar bush and others developed mechanical differential analyzers. in the 1890s, the spanish engineer leonardo torres quevedo began to develop a series of advanced analog m"
+            },
+            {
+              "rank": 2,
+              "score": 0.632,
+              "doc_title": "Algorithm",
+              "chunk_id": "algorithm_c6",
+              "snippet": "- driven clocks were a key european invention in middle ages, specifically the verge escapement mechanism producing the tick of mechanical clocks. accurate automatic machines led to mechanical automat"
+            },
+            {
+              "rank": 3,
+              "score": 0.6297,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c4",
+              "snippet": "to mean ' programmable digital electronic computer ' dates from \" 1945 under this name ; [ in a ] theoretical [ sense ] from 1937, as turing machine \". the name has remained, although modern computers"
+            },
+            {
+              "rank": 4,
+              "score": 0.6086,
+              "doc_title": "Charles Babbage",
+              "chunk_id": "charles_babbage_c0",
+              "snippet": "charles babbage ( ; 26 december 1791 – 18 october 1871 ) was an english polymath. a mathematician, philosopher, inventor and mechanical engineer, babbage originated the concept of a digital programmab"
+            },
+            {
+              "rank": 5,
+              "score": 0.6084,
+              "doc_title": "History of computing",
+              "chunk_id": "history_of_computing_c3",
+              "snippet": "below : the earliest known tool used for computation is the sumerian abacus, believed to have been invented in babylon c. 2700 – 2300 bc. its original style of usage was by lines drawn in sand with pe"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "question": "What does Moore's law observe about the number of transistors in an integrated circuit?",
+          "source_doc": "Moore's law",
+          "hit_at_k": true,
+          "hit_rank": 1,
+          "top1_doc": "Moore's law",
+          "top1_score": 0.7209,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.7209,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c0",
+              "snippet": "moore ' s law is the observation that the number of transistors in an integrated circuit ( ic ) doubles about every two years, with minimal increase in cost. despite the name, moore ' s law describes "
+            },
+            {
+              "rank": 2,
+              "score": 0.6592,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c23",
+              "snippet": "diode or capacitor \", at minimum cost. transistors per integrated circuit – the most popular formulation is of the doubling of the number of transistors on ics every two years. at the end of the 1970s"
+            },
+            {
+              "rank": 3,
+              "score": 0.652,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c22",
+              "snippet": "##ing the 1. 6 % per year during both 1972 – 1996 and 2005 – 2013. as economist richard g. anderson notes, \" numerous studies have traced the cause of the productivity acceleration to technological in"
+            },
+            {
+              "rank": 4,
+              "score": 0.6333,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c2",
+              "snippet": "circuit ( ic ) size, publishing his results in the article \" microelectronics, and the art of similitude \". engelbart presented his findings at the 1960 international solid - state circuits conference"
+            },
+            {
+              "rank": 5,
+              "score": 0.6248,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c4",
+              "snippet": "down in the mid - 2000s. at the 1975 ieee international electron devices meeting, moore revised his forecast rate, predicting semiconductor complexity would continue to double annually until about 198"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "question": "When and between which institutions was the first successful host-to-host connection on the ARPANET made?",
+          "source_doc": "ARPANET",
+          "hit_at_k": true,
+          "hit_rank": 3,
+          "top1_doc": "Internet",
+          "top1_score": 0.6632,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6632,
+              "doc_title": "Internet",
+              "chunk_id": "internet_c4",
+              "snippet": "the united kingdom ' s national physical laboratory ( npl ) in 1965. after the symposium on operating systems principles in 1967, packet switching from the proposed npl network was incorporated into t"
+            },
+            {
+              "rank": 2,
+              "score": 0.633,
+              "doc_title": "ARPANET",
+              "chunk_id": "arpanet_c22",
+              "snippet": "and computer industry laid the foundation for the adoption of tcp / ip as a comprehensive protocol suite as the core component of the emerging internet. operation arpa was intended to fund advanced re"
+            },
+            {
+              "rank": 3,
+              "score": 0.627,
+              "doc_title": "ARPANET",
+              "chunk_id": "arpanet_c12",
+              "snippet": "s ibm 360 / 75, running os / mvt being the machine attached ; the university of utah school of computing, where ivan sutherland had moved, running a dec pdp - 10 operating on tenex. the first successf"
+            },
+            {
+              "rank": 4,
+              "score": 0.591,
+              "doc_title": "Internet",
+              "chunk_id": "internet_c6",
+              "snippet": "it on public data networks. 1980s the arpanet initially served as a backbone for the interconnection of regional academic and military networks in the united states to enable resource sharing. access "
+            },
+            {
+              "rank": 5,
+              "score": 0.5731,
+              "doc_title": "ARPANET",
+              "chunk_id": "arpanet_c13",
+              "snippet": "the first permanent arpanet link was established on 21 november 1969, between the imp at ucla and the imp at the stanford research institute. by 5 december 1969, the initial four - node network was es"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "question": "Who is best known as the inventor of the World Wide Web?",
+          "source_doc": "Tim Berners-Lee",
+          "hit_at_k": true,
+          "hit_rank": 1,
+          "top1_doc": "Tim Berners-Lee",
+          "top1_score": 0.6894,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6894,
+              "doc_title": "Tim Berners-Lee",
+              "chunk_id": "tim_berners_lee_c0",
+              "snippet": "sir timothy john berners - lee ( born 8 june 1955 ), also known as timbl, is an english computer scientist best known as the inventor of the world wide web, html, the url system, and http. he is a pro"
+            },
+            {
+              "rank": 2,
+              "score": 0.6785,
+              "doc_title": "Tim Berners-Lee",
+              "chunk_id": "tim_berners_lee_c5",
+              "snippet": "##b, running on the nextstep operating system ), and the first web server, cern httpd ( hypertext transfer protocol daemon ). berners - lee published the first website, which described the project its"
+            },
+            {
+              "rank": 3,
+              "score": 0.6034,
+              "doc_title": "World Wide Web",
+              "chunk_id": "world_wide_web_c40",
+              "snippet": "sciences institute. james gleick, \" how the web was lost \" ( review of tim berners - lee with stephen witt, this is for everyone : the unfinished story of the world wide web, farrar, straus and giroux"
+            },
+            {
+              "rank": 4,
+              "score": 0.586,
+              "doc_title": "Tim Berners-Lee",
+              "chunk_id": "tim_berners_lee_c16",
+              "snippet": "an advocate for a universal basic income. books berners - lee, tim ; fischetti, mark ( 22 september 1999 ). weaving the web : the original design and ultimate destiny of the world wide web by its inve"
+            },
+            {
+              "rank": 5,
+              "score": 0.5463,
+              "doc_title": "World Wide Web",
+              "chunk_id": "world_wide_web_c1",
+              "snippet": "hyperlinks ( embedded urls ), which provide immediate access to other web resources. web navigation, or web surfing, is the common practice of following such hyperlinks across multiple websites. web a"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "question": "What is Grace Hopper often credited with creating?",
+          "source_doc": "Grace Hopper",
+          "hit_at_k": false,
+          "hit_rank": null,
+          "top1_doc": "Grace Hopper",
+          "top1_score": 0.6464,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6464,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c18",
+              "snippet": "university. 1987 : she became the first computer history museum fellow award recipient \" for contributions to the development of programming languages, for standardization efforts, and for lifelong na"
+            },
+            {
+              "rank": 2,
+              "score": 0.6371,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c29",
+              "snippet": ", lauren ( 2026 ). \" chapter 17. grace hopper \". women laureates 1970 - 2007 : national medal of science and national medal of technology and innovation winners. springer nature. isbn 978 - 3 - 032 - "
+            },
+            {
+              "rank": 3,
+              "score": 0.5853,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c22",
+              "snippet": "named the grace hopper building, and also contains the history of naval communications museum. building 6007, c2 / cnt west in aberdeen proving ground, maryland, is named after her. the street outside"
+            },
+            {
+              "rank": 4,
+              "score": 0.5683,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c23",
+              "snippet": "the former orlando naval training center, is named for her. programs women at microsoft corporation formed an employee group called hoppers and established a scholarship in her honor. beginning in 201"
+            },
+            {
+              "rank": 5,
+              "score": 0.5606,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c19",
+              "snippet": ". 2009 : the department of energy ' s national energy research scientific computing center named its flagship system \" hopper \". 2009 : office of naval intelligence created the grace hopper informatio"
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "question": "What did Bardeen, Brattain, and Shockley invent in 1947?",
+          "source_doc": "Transistor",
+          "hit_at_k": true,
+          "hit_rank": 1,
+          "top1_doc": "Transistor",
+          "top1_score": 0.5678,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.5678,
+              "doc_title": "Transistor",
+              "chunk_id": "transistor_c4",
+              "snippet": "##ley ' s proposal because the idea of a field - effect transistor that used an electric field as a grid was not new. instead, what bardeen, brattain, and shockley invented in 1947 was the first point"
+            },
+            {
+              "rank": 2,
+              "score": 0.5305,
+              "doc_title": "Transistor",
+              "chunk_id": "transistor_c3",
+              "snippet": "a device had been built. in 1934, inventor oskar heil patented a similar device in europe. bipolar transistors from november 17 to december 23, 1947, john bardeen and walter brattain at at & t ' s bel"
+            },
+            {
+              "rank": 3,
+              "score": 0.4908,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c22",
+              "snippet": "programmable electronic computer in continental europe, featuring an advanced internal random - access memory architecture based entirely on electronic vacuum - tube flip - flops ( triggers ) for imme"
+            },
+            {
+              "rank": 4,
+              "score": 0.429,
+              "doc_title": "Algorithm",
+              "chunk_id": "algorithm_c6",
+              "snippet": "- driven clocks were a key european invention in middle ages, specifically the verge escapement mechanism producing the tick of mechanical clocks. accurate automatic machines led to mechanical automat"
+            },
+            {
+              "rank": 5,
+              "score": 0.4264,
+              "doc_title": "Transistor",
+              "chunk_id": "transistor_c5",
+              "snippet": "##e des freins et signaux westinghouse, a westinghouse subsidiary in paris. matare had previous experience in developing crystal detectors from silicon and germanium in the german radar effort during "
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "question": "What did Jack Kilby demonstrate on 12 September 1958?",
+          "source_doc": "Integrated circuit",
+          "hit_at_k": true,
+          "hit_rank": 3,
+          "top1_doc": "Computer",
+          "top1_score": 0.3844,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.3844,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c25",
+              "snippet": ", geoffrey w. a. dummer. dummer presented the first public description of an integrated circuit at the symposium on progress in quality electronic components in washington, d. c., on 7 may 1952. the f"
+            },
+            {
+              "rank": 2,
+              "score": 0.33,
+              "doc_title": "Integrated circuit",
+              "chunk_id": "integrated_circuit_c4",
+              "snippet": "an integrated circuit on 12 september 1958. in his patent application of 6 february 1959, kilby described his new device as \" a body of semiconductor material... wherein all the components of the elec"
+            },
+            {
+              "rank": 3,
+              "score": 0.3288,
+              "doc_title": "Integrated circuit",
+              "chunk_id": "integrated_circuit_c3",
+              "snippet": "to circuits constructed using technologies such as 3d ic, 2. 5d ic, mcm, thin - film transistors, thick - film technology, or hybrid integrated circuits. the distinction between the strict and the bro"
+            },
+            {
+              "rank": 4,
+              "score": 0.3149,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c19",
+              "snippet": "of the two papers and was \" happy for them to be released into the public domain \". turing had a reputation for eccentricity at bletchley park. he was known to his colleagues as \" prof \" and his treat"
+            },
+            {
+              "rank": 5,
+              "score": 0.2964,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c39",
+              "snippet": "and computing ), \" undoubtedly the most intellectually powerful grouping of british scientists interested in cybernetics \" according to phil husbands and owen holland. at the first meeting on 4 septem"
+            }
+          ]
+        },
+        {
+          "id": "q11",
+          "question": "What was the first commercially available microprocessor, and when was it introduced?",
+          "source_doc": "Microprocessor",
+          "hit_at_k": true,
+          "hit_rank": 2,
+          "top1_doc": "Central processing unit",
+          "top1_score": 0.7025,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.7025,
+              "doc_title": "Central processing unit",
+              "chunk_id": "central_processing_unit_c11",
+              "snippet": "methods. the first commercially available microprocessor, made in 1971, was the intel 4004. the intel 4004 was one of the first consumer - facing cpus integrating arithmetic logic unit, control unit, "
+            },
+            {
+              "rank": 2,
+              "score": 0.6895,
+              "doc_title": "Microprocessor",
+              "chunk_id": "microprocessor_c1",
+              "snippet": "by highly automated metal – oxide – semiconductor ( mos ) fabrication processes, resulting in a relatively low unit price. single - chip processors increase reliability because there are fewer electri"
+            },
+            {
+              "rank": 3,
+              "score": 0.6879,
+              "doc_title": "History of computing",
+              "chunk_id": "history_of_computing_c15",
+              "snippet": "1968. this led to the development of the first single - chip microprocessor, the intel 4004. the intel 4004 was developed as a single - chip microprocessor from 1969 to 1970, led by intel ' s federico"
+            },
+            {
+              "rank": 4,
+              "score": 0.6755,
+              "doc_title": "Personal computer",
+              "chunk_id": "personal_computer_c4",
+              "snippet": "##cessor, the intel 4004, in 1971. the first microcomputers, based on microprocessors, were developed during the early 1970s. widespread commercial availability of microprocessors, from the mid - 1970"
+            },
+            {
+              "rank": 5,
+              "score": 0.6525,
+              "doc_title": "Central processing unit",
+              "chunk_id": "central_processing_unit_c3",
+              "snippet": ". with von neumann ' s design, the program that edvac ran could be changed simply by changing the contents of the memory. edvac was not the first stored - program computer ; the manchester baby, which"
+            }
+          ]
+        },
+        {
+          "id": "q12",
+          "question": "When was the Linux kernel first released, and by whom?",
+          "source_doc": "Linux",
+          "hit_at_k": true,
+          "hit_rank": 3,
+          "top1_doc": "Linux",
+          "top1_score": 0.6174,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6174,
+              "doc_title": "Linux",
+              "chunk_id": "linux_c1",
+              "snippet": "frequently used in server platforms. many linux distributions use the word \" linux \" in their name, but the free software foundation uses and recommends the name \" gnu / linux \", to emphasize the use "
+            },
+            {
+              "rank": 2,
+              "score": 0.5789,
+              "doc_title": "Unix",
+              "chunk_id": "unix_c20",
+              "snippet": "system – \" free \" in the sense that everyone who received a copy would be free to use, study, modify, and redistribute it. the gnu project ' s own kernel development project, gnu hurd, had not yet pro"
+            },
+            {
+              "rank": 3,
+              "score": 0.5736,
+              "doc_title": "Linux",
+              "chunk_id": "linux_c0",
+              "snippet": "linux ( lin - uuks ) is a family of free and open - source software unix - like operating systems based on the linux kernel, which was first released on 17 september 1991 by linus torvalds. some membe"
+            },
+            {
+              "rank": 4,
+              "score": 0.5403,
+              "doc_title": "Linux",
+              "chunk_id": "linux_c15",
+              "snippet": "included an audio guide with the kernel source code. however, in this recording, he pronounces \" linux \" as / ˈlinʊks / ( leen - uuks ), with a short but close front unrounded vowel, instead of a near"
+            },
+            {
+              "rank": 5,
+              "score": 0.5358,
+              "doc_title": "Linux",
+              "chunk_id": "linux_c2",
+              "snippet": ", a unix - compatible operating system made entirely of free software that had been in development since 1983 by the gnu project, led by richard stallman. a working unix system called minix was later "
+            }
+          ]
+        },
+        {
+          "id": "q13",
+          "question": "What was the UNIVAC I, and what did it famously predict?",
+          "source_doc": "UNIVAC",
+          "hit_at_k": true,
+          "hit_rank": 1,
+          "top1_doc": "UNIVAC",
+          "top1_score": 0.5513,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.5513,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c2",
+              "snippet": "1950. eckert and mauchly now reported to leslie groves, the retired army general who had previously managed building the pentagon and led the manhattan project. the most famous univac product was the "
+            },
+            {
+              "rank": 2,
+              "score": 0.5145,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c26",
+              "snippet": "zilahy ingerman ; shareware simulator of the univac i and ii univac i / ii console photos, 1948 – 1955 marketing documentation and flash video ( off the broiler blog ) univac television advertisement "
+            },
+            {
+              "rank": 3,
+              "score": 0.5009,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c25",
+              "snippet": ". s. census. oral history interview with isaac levin auerbach oral history interview by nancy b. stern, 10 april 1978. charles babbage institute, university of minnesota, minneapolis. auerbach recount"
+            },
+            {
+              "rank": 4,
+              "score": 0.4554,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c11",
+              "snippet": "sufficiently reliable. magnetic logic gates were based on magnetic cores with multiple wire windings ; unlike vacuum tubes, they were solid - state devices and had a virtually infinite lifetime. the m"
+            },
+            {
+              "rank": 5,
+              "score": 0.4407,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c24",
+              "snippet": "mauchly computer company, engineering research associates, and remington rand, 1946 - 1957. cambridge, mass : mit press. isbn 9780262140904. beyer, kurt w. ( february 10, 2012 ). grace hopper and the "
+            }
+          ]
+        },
+        {
+          "id": "q14",
+          "question": "When did IBM introduce the first disk drive?",
+          "source_doc": "Hard disk drive",
+          "hit_at_k": true,
+          "hit_rank": 5,
+          "top1_doc": "Hard disk drive",
+          "top1_score": 0.6601,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6601,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c32",
+              "snippet": "that the use of decimal prefixes effectively misled consumers, while the defendants denied any wrongdoing or liability, asserting that their marketing and advertising complied in all respects with the"
+            },
+            {
+              "rank": 2,
+              "score": 0.6478,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c8",
+              "snippet": "for all hdds, and still universal over 50 years and 10 billion arms later. like the first removable pack drive, the first \" winchester \" drives used platters 14 inches ( 360 mm ) in diameter. in 1978,"
+            },
+            {
+              "rank": 3,
+              "score": 0.6435,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c5",
+              "snippet": "per surface used. cylinder - mode read / write operations were supported, and the heads flew about 250 micro - inches ( about 6 μm ) above the platter surface. motion of the head array depended upon a"
+            },
+            {
+              "rank": 4,
+              "score": 0.6225,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c3",
+              "snippet": "capacities in powers of 1024, which results in a smaller number than advertised. performance is specified as the time required to move the heads to a track or cylinder ( average access time ), the tim"
+            },
+            {
+              "rank": 5,
+              "score": 0.6116,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c0",
+              "snippet": "a hard disk drive ( hdd ), hard disk, hard drive, or fixed disk is an electro - mechanical computer data storage device that stores and retrieves digital data using magnetic storage with one or more r"
+            }
+          ]
+        },
+        {
+          "id": "q15",
+          "question": "What does a compiler do?",
+          "source_doc": "Compiler",
+          "hit_at_k": true,
+          "hit_rank": 2,
+          "top1_doc": "Compiler",
+          "top1_score": 0.7234,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.7234,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c36",
+              "snippet": "prepare code for execution on embedded software applications. a program that rewrites object code back into the same type of object code while applying optimisations and transformations is a binary re"
+            },
+            {
+              "rank": 2,
+              "score": 0.6986,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c0",
+              "snippet": "in computing, a compiler is software that translates computer code written in one programming language ( the source language ) into another language ( the target language ). the name \" compiler \" is p"
+            },
+            {
+              "rank": 3,
+              "score": 0.6805,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c1",
+              "snippet": "programs that translate the form of expressions without a change of language ; and compiler - compilers, compilers that produce compilers ( or parts of them ), often in a generic and reusable way so a"
+            },
+            {
+              "rank": 4,
+              "score": 0.6741,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c29",
+              "snippet": "registers and memory and the selection and scheduling of appropriate machine instructions along with their associated addressing modes ( see also sethi – ullman algorithm ). debug data may also need t"
+            },
+            {
+              "rank": 5,
+              "score": 0.6604,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c30",
+              "snippet": "compilers and c interpreters. interpretation does not replace compilation completely. it only hides it from the user and makes it gradual. even though an interpreter can itself be interpreted, a set o"
+            }
+          ]
+        }
+      ]
+    },
+    "512": {
+      "chunk_size": 512,
+      "k": 5,
+      "n": 15,
+      "hits": 11,
+      "recall_at_k": 0.7333,
+      "recall_at_1": 0.2,
+      "per_question": [
+        {
+          "id": "q01",
+          "question": "Which computer was the first programmable, electronic, general-purpose digital computer, and when was it completed?",
+          "source_doc": "ENIAC",
+          "hit_at_k": false,
+          "hit_rank": null,
+          "top1_doc": "Personal computer",
+          "top1_score": 0.6382,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6382,
+              "doc_title": "Personal computer",
+              "chunk_id": "personal_computer_c2",
+              "snippet": "mail, hypertext, word processing, video conferencing, and the mouse. the demonstration required technical support staff and a mainframe time - sharing computer that were far too costly for individual "
+            },
+            {
+              "rank": 2,
+              "score": 0.6145,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c0",
+              "snippet": "a computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations ( computation ). modern digital electronic computers can perform generic sets of"
+            },
+            {
+              "rank": 3,
+              "score": 0.6096,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c9",
+              "snippet": "on developing an electronic stored - program digital computer. his 1945 report \" proposed electronic calculator \" was the first specification for such a device. john von neumann at the university of p"
+            },
+            {
+              "rank": 4,
+              "score": 0.6093,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c6",
+              "snippet": "early digital computers were electromechanical ; electric switches drove mechanical relays to perform the calculation. these devices had a low operating speed and were eventually superseded by much fa"
+            },
+            {
+              "rank": 5,
+              "score": 0.6065,
+              "doc_title": "History of computing",
+              "chunk_id": "history_of_computing_c5",
+              "snippet": "##icott, new york, by arthur halsey dickinson. in this computer, ibm introduced a calculating device with a keyboard, processor and electronic output ( display ). the competitor to ibm was the digital"
+            }
+          ]
+        },
+        {
+          "id": "q02",
+          "question": "What devices did Turing introduce in his 1936 paper on the limits of computation?",
+          "source_doc": "Alan Turing",
+          "hit_at_k": true,
+          "hit_rank": 1,
+          "top1_doc": "Alan Turing",
+          "top1_score": 0.6122,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6122,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c5",
+              "snippet": "started his master ' s course ( part iii ) — which he completed in 1937 — and, at the same time, he published his first paper, a one - page article called equivalence of left and right almost periodic"
+            },
+            {
+              "rank": 2,
+              "score": 0.6076,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c6",
+              "snippet": ". e., in a sense, algorithmic ) means. he went on to prove that there was no solution to the decision problem by first showing that some variants of the halting problem for turing machines are undecid"
+            },
+            {
+              "rank": 3,
+              "score": 0.607,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c15",
+              "snippet": "to define a standard for a machine to be called \" intelligent \". the idea was that a computer could be said to \" think \" if a human interrogator could not tell it apart, through conversation, from a h"
+            },
+            {
+              "rank": 4,
+              "score": 0.5982,
+              "doc_title": "Algorithm",
+              "chunk_id": "algorithm_c3",
+              "snippet": "cards, and telephone switching machines led to the development of the first computers. by the mid - 19th century, the telegraph, was in use throughout the world. by the late 19th century, ticker tape "
+            },
+            {
+              "rank": 5,
+              "score": 0.5844,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c8",
+              "snippet": "programmers of the eniac were six women, often known collectively as the \" eniac girls \". it combined the high speed of electronics with the ability to be programmed for many complex problems. it coul"
+            }
+          ]
+        },
+        {
+          "id": "q03",
+          "question": "What is Ada Lovelace chiefly known for?",
+          "source_doc": "Ada Lovelace",
+          "hit_at_k": true,
+          "hit_rank": 4,
+          "top1_doc": "Ada Lovelace",
+          "top1_score": 0.5682,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.5682,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c15",
+              "snippet": "returns to her studies in advanced mathematics. \" lovelace \" is the name of the operating system designed by the character cameron howe in halt and catch fire, which aired on amc in the us in 2015. in"
+            },
+            {
+              "rank": 2,
+              "score": 0.566,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c4",
+              "snippet": "greatly enlarged to lovelace ' s own designs. they had three children : byron ( born 1836 ) ; anne isabella ( called annabella, born 1837 ) ; and ralph gordon ( born 1839 ). immediately after the birt"
+            },
+            {
+              "rank": 3,
+              "score": 0.5636,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c12",
+              "snippet": "##s, \" and to \" create new role models for girls and women \" in these fields. events have included wikipedia edit - a - thons with the aim of improving the representation of women on wikipedia in term"
+            },
+            {
+              "rank": 4,
+              "score": 0.5529,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c0",
+              "snippet": "augusta ada king, countess of lovelace ( nee byron ; 10 december 1815 – 27 november 1852 ), also known as ada lovelace, was an english mathematician and writer chiefly known for work on charles babbag"
+            },
+            {
+              "rank": 5,
+              "score": 0.5467,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c16",
+              "snippet": "uk government agency that carries out research in science and engineering. the cardano cryptocurrency platform, launched in 2017, uses ada as the name for the cryptocurrency and lovelace as the smalle"
+            }
+          ]
+        },
+        {
+          "id": "q04",
+          "question": "Who is credited with inventing the first mechanical computer, and what was it called?",
+          "source_doc": "Charles Babbage",
+          "hit_at_k": true,
+          "hit_rank": 2,
+          "top1_doc": "Computer",
+          "top1_score": 0.6372,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6372,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c4",
+              "snippet": "that allowed these machines to work. starting in the 1920s, vannevar bush and others developed mechanical differential analyzers. in the 1890s, the spanish engineer leonardo torres quevedo began to de"
+            },
+            {
+              "rank": 2,
+              "score": 0.6086,
+              "doc_title": "Charles Babbage",
+              "chunk_id": "charles_babbage_c0",
+              "snippet": "charles babbage ( ; 26 december 1791 – 18 october 1871 ) was an english polymath. a mathematician, philosopher, inventor and mechanical engineer, babbage originated the concept of a digital programmab"
+            },
+            {
+              "rank": 3,
+              "score": 0.5744,
+              "doc_title": "Ada Lovelace",
+              "chunk_id": "ada_lovelace_c8",
+              "snippet": "have walked while discussing mathematical principles. first published computer program the notes are important in the early history of computers, especially since note g described, in complete detail,"
+            },
+            {
+              "rank": 4,
+              "score": 0.5645,
+              "doc_title": "Personal computer",
+              "chunk_id": "personal_computer_c2",
+              "snippet": "mail, hypertext, word processing, video conferencing, and the mouse. the demonstration required technical support staff and a mainframe time - sharing computer that were far too costly for individual "
+            },
+            {
+              "rank": 5,
+              "score": 0.5635,
+              "doc_title": "IBM",
+              "chunk_id": "ibm_c1",
+              "snippet": "nobel prizes and six turing awards. history 1910s – 1950s ibm originated with several technological innovations developed and commercialized in the late 19th century. julius e. pitrap patented the com"
+            }
+          ]
+        },
+        {
+          "id": "q05",
+          "question": "What does Moore's law observe about the number of transistors in an integrated circuit?",
+          "source_doc": "Moore's law",
+          "hit_at_k": true,
+          "hit_rank": 1,
+          "top1_doc": "Moore's law",
+          "top1_score": 0.7209,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.7209,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c0",
+              "snippet": "moore ' s law is the observation that the number of transistors in an integrated circuit ( ic ) doubles about every two years, with minimal increase in cost. despite the name, moore ' s law describes "
+            },
+            {
+              "rank": 2,
+              "score": 0.6981,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c10",
+              "snippet": "with rapid obsolescence and accordingly high maintenance costs. as technologies continue to rapidly improve, they render predecessor technologies obsolete. in situations in which security and survivab"
+            },
+            {
+              "rank": 3,
+              "score": 0.6085,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c2",
+              "snippet": "areas without losing reduction yields finer minimum dimensions what moore called \" circuit and device cleverness \" shortly after 1975, caltech professor carver mead popularized the term moore ' s law."
+            },
+            {
+              "rank": 4,
+              "score": 0.5897,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c3",
+              "snippet": "claimed to keep pace with moore ' s law with 10, 7, and 5 nm nodes in mass production. moore ' s second law as the cost of computer power to the consumer falls, the cost for producers to fulfill moore"
+            },
+            {
+              "rank": 5,
+              "score": 0.5721,
+              "doc_title": "Moore's law",
+              "chunk_id": "moore_s_law_c15",
+              "snippet": "s law – computer science observation koomey ' s law – electronic hardware trend limits of computation list of eponymous laws – adages and sayings named after a personpages displaying short description"
+            }
+          ]
+        },
+        {
+          "id": "q06",
+          "question": "When and between which institutions was the first successful host-to-host connection on the ARPANET made?",
+          "source_doc": "ARPANET",
+          "hit_at_k": true,
+          "hit_rank": 5,
+          "top1_doc": "ARPANET",
+          "top1_score": 0.6243,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6243,
+              "doc_title": "ARPANET",
+              "chunk_id": "arpanet_c10",
+              "snippet": "first arpanet encryption devices were deployed to support classified traffic. the arpanet completion report, written in 1978 and published in 1981 jointly by bbn and darpa, concludes that :... it is s"
+            },
+            {
+              "rank": 2,
+              "score": 0.571,
+              "doc_title": "Internet",
+              "chunk_id": "internet_c2",
+              "snippet": "mathematics center at the university of california, santa barbara followed by the fourth, the graphics department at the university of utah. 1970s by the end of 1971, 15 sites were connected to the yo"
+            },
+            {
+              "rank": 3,
+              "score": 0.5603,
+              "doc_title": "ARPANET",
+              "chunk_id": "arpanet_c0",
+              "snippet": "the advanced research projects agency network ( arpanet ) was the first wide - area packet - switched network with distributed control and one of the first computer networks to implement the tcp / ip "
+            },
+            {
+              "rank": 4,
+              "score": 0.5442,
+              "doc_title": "Internet",
+              "chunk_id": "internet_c3",
+              "snippet": "/ s. the nsfnet expanded into academic and research organizations in europe, australia, new zealand and japan in 1988 – 89. although other network protocols such as uucp and ptt public data networks h"
+            },
+            {
+              "rank": 5,
+              "score": 0.5283,
+              "doc_title": "ARPANET",
+              "chunk_id": "arpanet_c5",
+              "snippet": "performance and examine his theories on message delay. the locations were selected not only to reduce leased line costs but also because each had specific expertise beneficial for this initial impleme"
+            }
+          ]
+        },
+        {
+          "id": "q07",
+          "question": "Who is best known as the inventor of the World Wide Web?",
+          "source_doc": "Tim Berners-Lee",
+          "hit_at_k": true,
+          "hit_rank": 1,
+          "top1_doc": "Tim Berners-Lee",
+          "top1_score": 0.6894,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6894,
+              "doc_title": "Tim Berners-Lee",
+              "chunk_id": "tim_berners_lee_c0",
+              "snippet": "sir timothy john berners - lee ( born 8 june 1955 ), also known as timbl, is an english computer scientist best known as the inventor of the world wide web, html, the url system, and http. he is a pro"
+            },
+            {
+              "rank": 2,
+              "score": 0.6056,
+              "doc_title": "Tim Berners-Lee",
+              "chunk_id": "tim_berners_lee_c2",
+              "snippet": "it then was accepted by his manager, mike sendall, who called his proposals \" vague, but exciting \". robert cailliau had independently proposed a project to develop a hypertext system at cern, and joi"
+            },
+            {
+              "rank": 3,
+              "score": 0.5698,
+              "doc_title": "Tim Berners-Lee",
+              "chunk_id": "tim_berners_lee_c7",
+              "snippet": "species – an invaluable repository of human knowledge that i consider one of the modern wonders of the world. what made this system work was intercreativity – a group of people being creative. wikiped"
+            },
+            {
+              "rank": 4,
+              "score": 0.568,
+              "doc_title": "World Wide Web",
+              "chunk_id": "world_wide_web_c18",
+              "snippet": "##rso, 2025, 262 pp. ; and cory doctorow, enshittification : why everything suddenly got worse and what to do about it, mcd, 338 pp. ), the new york review of books, vol. lxxii, no. 19 ( 4 december 20"
+            },
+            {
+              "rank": 5,
+              "score": 0.5414,
+              "doc_title": "World Wide Web",
+              "chunk_id": "world_wide_web_c2",
+              "snippet": "popularity grew rapidly as thousands of websites sprang up in less than a year. mosaic was a graphical browser that could display inline images and submit forms that were processed by the httpd server"
+            }
+          ]
+        },
+        {
+          "id": "q08",
+          "question": "What is Grace Hopper often credited with creating?",
+          "source_doc": "Grace Hopper",
+          "hit_at_k": false,
+          "hit_rank": null,
+          "top1_doc": "Grace Hopper",
+          "top1_score": 0.6098,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6098,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c8",
+              "snippet": "retirement. 1986 : received an honorary doctor of science from syracuse university. 1987 : she became the first computer history museum fellow award recipient \" for contributions to the development of"
+            },
+            {
+              "rank": 2,
+              "score": 0.5861,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c10",
+              "snippet": "in january 2016 with the goal of increasing the proportion of women in software engineering careers. a bridge over goose creek, to join the north and south sides of the naval support activity charlest"
+            },
+            {
+              "rank": 3,
+              "score": 0.5395,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c13",
+              "snippet": "innovation winners. springer nature. isbn 978 - 3 - 032 - 23115 - 4. external links grace hopper at the mathematics genealogy project o ' connor, john j. ; robertson, edmund f., \" grace hopper \", mact"
+            },
+            {
+              "rank": 4,
+              "score": 0.5318,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c1",
+              "snippet": "\" hopper \". during her lifetime, hopper was awarded 40 honorary degrees from universities across the world. a college at yale university was renamed in her honor. in 1991, she received the national me"
+            },
+            {
+              "rank": 5,
+              "score": 0.525,
+              "doc_title": "Grace Hopper",
+              "chunk_id": "grace_hopper_c6",
+              "snippet": ". s. department of defense policy. in 2016 hopper posthumously received the presidential medal of freedom, the nation ' s highest civilian honor, in recognition of her remarkable contributions to the "
+            }
+          ]
+        },
+        {
+          "id": "q09",
+          "question": "What did Bardeen, Brattain, and Shockley invent in 1947?",
+          "source_doc": "Transistor",
+          "hit_at_k": true,
+          "hit_rank": 5,
+          "top1_doc": "Transistor",
+          "top1_score": 0.445,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.445,
+              "doc_title": "Transistor",
+              "chunk_id": "transistor_c4",
+              "snippet": "filed a patent for a device similar to mesfet in 1926, and for an insulated - gate field - effect transistor in 1928. the fet concept was later also theorized by engineer oskar heil in the 1930s and b"
+            },
+            {
+              "rank": 2,
+              "score": 0.4114,
+              "doc_title": "Transistor",
+              "chunk_id": "transistor_c0",
+              "snippet": "a transistor is a semiconductor device used to amplify or switch electrical signals and power. it is one of the fundamental building blocks of modern electronics. a transistor is composed of semicondu"
+            },
+            {
+              "rank": 3,
+              "score": 0.4096,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c10",
+              "snippet": "the first working transistor, the point - contact transistor, in 1947, which was followed by shockley ' s bipolar junction transistor in 1948. from 1955 onwards, transistors replaced vacuum tubes in c"
+            },
+            {
+              "rank": 4,
+              "score": 0.4029,
+              "doc_title": "IBM",
+              "chunk_id": "ibm_c1",
+              "snippet": "nobel prizes and six turing awards. history 1910s – 1950s ibm originated with several technological innovations developed and commercialized in the late 19th century. julius e. pitrap patented the com"
+            },
+            {
+              "rank": 5,
+              "score": 0.388,
+              "doc_title": "Transistor",
+              "chunk_id": "transistor_c1",
+              "snippet": "- distance telephony. the triode, however, was a fragile device that consumed a substantial amount of power. in 1909, physicist william eccles discovered the crystal diode oscillator. physicist julius"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "question": "What did Jack Kilby demonstrate on 12 September 1958?",
+          "source_doc": "Integrated circuit",
+          "hit_at_k": false,
+          "hit_rank": null,
+          "top1_doc": "Alan Turing",
+          "top1_score": 0.2951,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.2951,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c30",
+              "snippet": "by jack copeland alan turing site maintained by andrew hodges including a short biography events cie 2012 : turing centenary conference alan turing year archived 17 february 2019 at the wayback machin"
+            },
+            {
+              "rank": 2,
+              "score": 0.2901,
+              "doc_title": "Computer",
+              "chunk_id": "computer_c11",
+              "snippet": "##sfet is the most widely used transistor in computers, and is the fundamental building block of digital electronics. integrated circuits the next great advance in computing power came with the advent"
+            },
+            {
+              "rank": 3,
+              "score": 0.2865,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c18",
+              "snippet": "move, then that player runs around the house, and the other player must make a chess move before the first player returns. porgy for christmas 1934, the college graduate turing asked his mother for a "
+            },
+            {
+              "rank": 4,
+              "score": 0.2786,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c15",
+              "snippet": "to define a standard for a machine to be called \" intelligent \". the idea was that a computer could be said to \" think \" if a human interrogator could not tell it apart, through conversation, from a h"
+            },
+            {
+              "rank": 5,
+              "score": 0.2575,
+              "doc_title": "Alan Turing",
+              "chunk_id": "alan_turing_c11",
+              "snippet": ". they emphasised how small their need was compared with the vast expenditure of men and money by the forces and compared with the level of assistance they could offer to the forces. as andrew hodges,"
+            }
+          ]
+        },
+        {
+          "id": "q11",
+          "question": "What was the first commercially available microprocessor, and when was it introduced?",
+          "source_doc": "Microprocessor",
+          "hit_at_k": false,
+          "hit_rank": null,
+          "top1_doc": "Personal computer",
+          "top1_score": 0.678,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.678,
+              "doc_title": "Personal computer",
+              "chunk_id": "personal_computer_c2",
+              "snippet": "mail, hypertext, word processing, video conferencing, and the mouse. the demonstration required technical support staff and a mainframe time - sharing computer that were far too costly for individual "
+            },
+            {
+              "rank": 2,
+              "score": 0.6751,
+              "doc_title": "Microprocessor",
+              "chunk_id": "microprocessor_c4",
+              "snippet": "soon after. affordable 8 - bit microprocessors with 16 - bit addressing also led to the first general - purpose microcomputers from the mid - 1970s on. the first use of the term \" microprocessor \" is "
+            },
+            {
+              "rank": 3,
+              "score": 0.6425,
+              "doc_title": "Microprocessor",
+              "chunk_id": "microprocessor_c15",
+              "snippet": "renamed the we 32000 ( we for western electric ), and had two follow - on generations, the we 32100 and we 32200. these microprocessors were used in the at & t 3b5 and 3b15 minicomputers ; in the 3b2,"
+            },
+            {
+              "rank": 4,
+              "score": 0.6164,
+              "doc_title": "Microprocessor",
+              "chunk_id": "microprocessor_c11",
+              "snippet": "arm ( 32 - bit ) and other microprocessor intellectual property ( ip ) providers in the 1990s. motorola introduced the mc6809 in 1978. it was an ambitious and well thought - through 8 - bit design tha"
+            },
+            {
+              "rank": 5,
+              "score": 0.5946,
+              "doc_title": "Central processing unit",
+              "chunk_id": "central_processing_unit_c5",
+              "snippet": "register unit on a chip. the first widely used microprocessor, made in 1974, was the intel 8080. mainframe and minicomputer manufacturers of the time launched proprietary ic development programs to up"
+            }
+          ]
+        },
+        {
+          "id": "q12",
+          "question": "When was the Linux kernel first released, and by whom?",
+          "source_doc": "Linux",
+          "hit_at_k": true,
+          "hit_rank": 2,
+          "top1_doc": "Linux",
+          "top1_score": 0.5816,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.5816,
+              "doc_title": "Linux",
+              "chunk_id": "linux_c1",
+              "snippet": "and it was made for education purposes. the first entirely free unix for personal computers, 386bsd, did not appear until 1992, by which time torvalds had already built and publicly released the first"
+            },
+            {
+              "rank": 2,
+              "score": 0.5736,
+              "doc_title": "Linux",
+              "chunk_id": "linux_c0",
+              "snippet": "linux ( lin - uuks ) is a family of free and open - source software unix - like operating systems based on the linux kernel, which was first released on 17 september 1991 by linus torvalds. some membe"
+            },
+            {
+              "rank": 3,
+              "score": 0.5558,
+              "doc_title": "Unix",
+              "chunk_id": "unix_c9",
+              "snippet": "kernel development project, gnu hurd, had not yet produced a working kernel, but in 1991 linus torvalds released the linux kernel as free software under the gnu general public license. in addition to "
+            },
+            {
+              "rank": 4,
+              "score": 0.5414,
+              "doc_title": "Linux",
+              "chunk_id": "linux_c10",
+              "snippet": "##trill, an engineer of a competing os, agrees that \" linux wasn ' t designed, it evolved \", but considers this to be a limitation, proposing that some features, especially those related to security, "
+            },
+            {
+              "rank": 5,
+              "score": 0.5358,
+              "doc_title": "Linux",
+              "chunk_id": "linux_c17",
+              "snippet": "anjuta, code : : blocks, codelite, eclipse, geany, activestate komodo, kdevelop, lazarus, monodevelop, netbeans, and qt creator, while the long - established editors vim, nano and emacs remain popular"
+            }
+          ]
+        },
+        {
+          "id": "q13",
+          "question": "What was the UNIVAC I, and what did it famously predict?",
+          "source_doc": "UNIVAC",
+          "hit_at_k": true,
+          "hit_rank": 4,
+          "top1_doc": "UNIVAC",
+          "top1_score": 0.475,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.475,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c5",
+              "snippet": "a transmitter - type vacuum tube, of a type still used in amateur radio final amplifiers. thus the solid state depended, at the heart of its operations, on a vacuum tube, however, only a few tubes wer"
+            },
+            {
+              "rank": 2,
+              "score": 0.4532,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c11",
+              "snippet": "minneapolis. 171 - page transcript of oral history with computer pioneers involved with the univac computer, held on 17 – 18 may 1990. the meeting involved 25 engineers, programmers, marketing represe"
+            },
+            {
+              "rank": 3,
+              "score": 0.4181,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c1",
+              "snippet": ", which became known for predicting the outcome of the 1952 united states presidential election : this incident is noteworthy because the computer correctly predicted an eisenhower landslide over adla"
+            },
+            {
+              "rank": 4,
+              "score": 0.3856,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c0",
+              "snippet": "univac ( universal automatic computer ) was a line of electronic digital stored - program computers starting with the products of the eckert – mauchly computer corporation. after capturing the public "
+            },
+            {
+              "rank": 5,
+              "score": 0.3768,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c4",
+              "snippet": "as the first computer to have interrupts. the original model range was the univac i ( universal automatic computer i ), the second commercial computer made in the united states. the main memory consis"
+            }
+          ]
+        },
+        {
+          "id": "q14",
+          "question": "When did IBM introduce the first disk drive?",
+          "source_doc": "Hard disk drive",
+          "hit_at_k": true,
+          "hit_rank": 2,
+          "top1_doc": "Hard disk drive",
+          "top1_score": 0.6153,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.6153,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c2",
+              "snippet": "##1 disk storage unit, which superseded the ibm 350 and similar drives. the 1301 consisted of one ( for model 1 ) or two ( for model 2 ) modules, each containing 25 platters, each platter about 1⁄8 - "
+            },
+            {
+              "rank": 2,
+              "score": 0.6116,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c0",
+              "snippet": "a hard disk drive ( hdd ), hard disk, hard drive, or fixed disk is an electro - mechanical computer data storage device that stores and retrieves digital data using magnetic storage with one or more r"
+            },
+            {
+              "rank": 3,
+              "score": 0.6014,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c4",
+              "snippet": "the most commonly used hard disk size, and most new corporate computers had hard drives. most in the industry expected that 20 mb would soon become the new standard size. by the late 1980s, their cost"
+            },
+            {
+              "rank": 4,
+              "score": 0.5975,
+              "doc_title": "Hard disk drive",
+              "chunk_id": "hard_disk_drive_c3",
+              "snippet": "in 1973, ibm introduced a new type of hdd code - named \" winchester \". its primary distinguishing feature was that the disk heads were not withdrawn completely from the stack of disk platters when the"
+            },
+            {
+              "rank": 5,
+              "score": 0.5696,
+              "doc_title": "UNIVAC",
+              "chunk_id": "univac_c8",
+              "snippet": "users and to compete with ibm ' s system 3. it used a disk operating system and had either a 300 or 600 lines per minute printer, a card reader, optionally a card punch, a console ( uniscope 100 ), at"
+            }
+          ]
+        },
+        {
+          "id": "q15",
+          "question": "What does a compiler do?",
+          "source_doc": "Compiler",
+          "hit_at_k": true,
+          "hit_rank": 2,
+          "top1_doc": "Compiler",
+          "top1_score": 0.7033,
+          "retrieved": [
+            {
+              "rank": 1,
+              "score": 0.7033,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c7",
+              "snippet": ") all of these have interpreter and compiler support. \" when the field of compiling began in the late 50s, its focus was limited to the translation of high - level language programs into machine code."
+            },
+            {
+              "rank": 2,
+              "score": 0.6986,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c0",
+              "snippet": "in computing, a compiler is software that translates computer code written in one programming language ( the source language ) into another language ( the target language ). the name \" compiler \" is p"
+            },
+            {
+              "rank": 3,
+              "score": 0.6972,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c16",
+              "snippet": "an object code format that is unsupported on the compiling machine is called a cross compiler and is commonly used to prepare code for execution on embedded software applications. a program that rewri"
+            },
+            {
+              "rank": 4,
+              "score": 0.675,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c13",
+              "snippet": "data may also need to be generated to facilitate debugging. compiler correctness compiler correctness is the branch of software engineering that deals with trying to show that a compiler behaves accor"
+            },
+            {
+              "rank": 5,
+              "score": 0.6367,
+              "doc_title": "Compiler",
+              "chunk_id": "compiler_c14",
+              "snippet": "special evaluation function. to implement these features in a compiled language, programs must usually be shipped with a runtime library that includes a version of the compiler itself. types one class"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# Python / venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Model weights & binaries (downloaded at run time, never committed)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+models/
+weights/
+checkpoints/
+task3-local/bin/
+task1-lora/checkpoints/
+task1-lora/adapter/
+
+# Local run artefacts (keep results JSON; ignore large caches)
+*.db
+*.sqlite

@@ -1,0 +1,46 @@
+CMD settings: temp=0.0 seed=42 n=128 threads=4 ctx=512
+PROMPT: Write a Python function called is_even that returns True if a number is even and False otherwise. Give only the code, no explanation.
+
+--- STDOUT (raw llama-cli output) ---
+
+
+Loading model... |-\|/-\|/-\|/ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12441-164ab018f
+model      : /home/hatch/workspace/tndrr-aiml-assignment/task3-local/models/qwen2.5-0.5b-instruct-q4_k_m.gguf
+ftype      : Q4_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Write a Python function called is_even that returns True if a number is even and False otherwise. Give only the code, no explanation.
+```python
+def is_even(num):
+    return num % 2 == 0
+```
+
+[ Prompt: 40.0 t/s | Generation: 9.9 t/s ]
+
+
+Exiting...
+
+
+--- STDERR ---
+
+--- PARSED ---
+prompt_eval_tps=40.0 gen_tps=9.9 peak_rss_mb=577.4 wall_s=4.85

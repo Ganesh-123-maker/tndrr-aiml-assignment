@@ -1,0 +1,43 @@
+CMD settings: temp=0.0 seed=42 n=128 threads=4 ctx=512
+PROMPT: Summarise this paragraph in one sentence: 'The Indian Space Research Organisation launched its first satellite, Aryabhata, in 1975. Over the following decades it built a series of launch vehicles, including the Polar Satellite Launch Vehicle, which became known for its reliability. In 2023, the Chandrayaan-3 mission soft-landed a rover near the Moon's south pole, making India the fourth country to land on the Moon.'
+
+--- STDOUT (raw llama-cli output) ---
+
+
+Loading model... |-\|/-\|/-\|/ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12441-164ab018f
+model      : /home/hatch/workspace/tndrr-aiml-assignment/task3-local/models/qwen2.5-0.5b-instruct-fp16.gguf
+ftype      : F16
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> Summarise this paragraph in one sentence: 'The Indian Space Research Organisation launched its first satellite, Aryabhata, in 1975. Over the following decades it built a series of launch vehicles, including the Polar Satellite Launch Vehicle, which became known for its reliability. In 2023, the Chandrayaan-3 mission soft-landed a rover near the Moon's south pole, making India the fourth country to land on the Moon.'
+The Indian Space Research Organisation launched Aryabhata, the first satellite, in 1975, and has since built a series of launch vehicles, including the Polar Satellite Launch Vehicle, which has become known for reliability. In 2023, India's Chandrayaan-3 mission landed a rover near the Moon's south pole, making it the fourth country to land on the Moon.
+
+[ Prompt: 47.8 t/s | Generation: 5.3 t/s ]
+
+
+Exiting...
+
+
+--- STDERR ---
+
+--- PARSED ---
+prompt_eval_tps=47.8 gen_tps=5.3 peak_rss_mb=1290.8 wall_s=19.30

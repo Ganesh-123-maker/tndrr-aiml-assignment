@@ -1,0 +1,52 @@
+CMD settings: temp=0.0 seed=42 n=128 threads=4 ctx=512
+PROMPT: A farmer has 17 sheep. All but 9 run away. How many sheep are left? Explain your reasoning briefly.
+
+--- STDOUT (raw llama-cli output) ---
+
+
+Loading model... |-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12441-164ab018f
+model      : /home/hatch/workspace/tndrr-aiml-assignment/task3-local/models/qwen2.5-0.5b-instruct-fp16.gguf
+ftype      : F16
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> A farmer has 17 sheep. All but 9 run away. How many sheep are left? Explain your reasoning briefly.
+To determine how many sheep are left, we need to subtract the number of sheep that run away from the total number of sheep. Here's the step-by-step reasoning:
+
+1. The farmer initially has 17 sheep.
+2. All but 9 sheep run away.
+3. To find out how many sheep are left, we subtract the number of sheep that run away from the initial number of sheep.
+
+So, the calculation is:
+\[ 17 - 9 = 8 \]
+
+Therefore, the number of sheep left is 8.
+
+[ Prompt: 49.1 t/s | Generation: 10.4 t/s ]
+
+
+Exiting...
+
+
+--- STDERR ---
+
+--- PARSED ---
+prompt_eval_tps=49.1 gen_tps=10.4 peak_rss_mb=1286.5 wall_s=13.20

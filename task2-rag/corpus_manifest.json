@@ -1,0 +1,277 @@
+{
+  "source": "Wikipedia (en.wikipedia.org) via the MediaWiki API",
+  "topic": "History of computing",
+  "fetched": "2026-11-16",
+  "api": "https://en.wikipedia.org/w/api.php",
+  "documents": [
+    {
+      "title": "History of computing",
+      "filename": "history_of_computing.txt",
+      "url": "https://en.wikipedia.org/wiki/History_of_computing",
+      "chars": 29169,
+      "words": 4411
+    },
+    {
+      "title": "Computer",
+      "filename": "computer.txt",
+      "url": "https://en.wikipedia.org/wiki/Computer",
+      "chars": 55352,
+      "words": 8599
+    },
+    {
+      "title": "Central processing unit",
+      "filename": "central_processing_unit.txt",
+      "url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+      "chars": 52901,
+      "words": 8169
+    },
+    {
+      "title": "Transistor",
+      "filename": "transistor.txt",
+      "url": "https://en.wikipedia.org/wiki/Transistor",
+      "chars": 49211,
+      "words": 7239
+    },
+    {
+      "title": "Integrated circuit",
+      "filename": "integrated_circuit.txt",
+      "url": "https://en.wikipedia.org/wiki/Integrated_circuit",
+      "chars": 41218,
+      "words": 6076
+    },
+    {
+      "title": "Microprocessor",
+      "filename": "microprocessor.txt",
+      "url": "https://en.wikipedia.org/wiki/Microprocessor",
+      "chars": 45078,
+      "words": 7002
+    },
+    {
+      "title": "Personal computer",
+      "filename": "personal_computer.txt",
+      "url": "https://en.wikipedia.org/wiki/Personal_computer",
+      "chars": 49525,
+      "words": 7714
+    },
+    {
+      "title": "Internet",
+      "filename": "internet.txt",
+      "url": "https://en.wikipedia.org/wiki/Internet",
+      "chars": 53315,
+      "words": 7801
+    },
+    {
+      "title": "World Wide Web",
+      "filename": "world_wide_web.txt",
+      "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+      "chars": 41734,
+      "words": 6619
+    },
+    {
+      "title": "Operating system",
+      "filename": "operating_system.txt",
+      "url": "https://en.wikipedia.org/wiki/Operating_system",
+      "chars": 38017,
+      "words": 5824
+    },
+    {
+      "title": "Programming language",
+      "filename": "programming_language.txt",
+      "url": "https://en.wikipedia.org/wiki/Programming_language",
+      "chars": 34230,
+      "words": 5082
+    },
+    {
+      "title": "Artificial intelligence",
+      "filename": "artificial_intelligence.txt",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "chars": 87134,
+      "words": 13161
+    },
+    {
+      "title": "Machine learning",
+      "filename": "machine_learning.txt",
+      "url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "chars": 59352,
+      "words": 8573
+    },
+    {
+      "title": "Alan Turing",
+      "filename": "alan_turing.txt",
+      "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+      "chars": 64880,
+      "words": 10328
+    },
+    {
+      "title": "Charles Babbage",
+      "filename": "charles_babbage.txt",
+      "url": "https://en.wikipedia.org/wiki/Charles_Babbage",
+      "chars": 48585,
+      "words": 7635
+    },
+    {
+      "title": "Ada Lovelace",
+      "filename": "ada_lovelace.txt",
+      "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+      "chars": 40610,
+      "words": 6393
+    },
+    {
+      "title": "John von Neumann",
+      "filename": "john_von_neumann.txt",
+      "url": "https://en.wikipedia.org/wiki/John_von_Neumann",
+      "chars": 94534,
+      "words": 14855
+    },
+    {
+      "title": "ENIAC",
+      "filename": "eniac.txt",
+      "url": "https://en.wikipedia.org/wiki/ENIAC",
+      "chars": 31259,
+      "words": 4898
+    },
+    {
+      "title": "UNIVAC",
+      "filename": "univac.txt",
+      "url": "https://en.wikipedia.org/wiki/UNIVAC",
+      "chars": 24236,
+      "words": 3797
+    },
+    {
+      "title": "IBM",
+      "filename": "ibm.txt",
+      "url": "https://en.wikipedia.org/wiki/IBM",
+      "chars": 40321,
+      "words": 6149
+    },
+    {
+      "title": "Apple Inc.",
+      "filename": "apple_inc.txt",
+      "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+      "chars": 73641,
+      "words": 11394
+    },
+    {
+      "title": "Microsoft",
+      "filename": "microsoft.txt",
+      "url": "https://en.wikipedia.org/wiki/Microsoft",
+      "chars": 68396,
+      "words": 10469
+    },
+    {
+      "title": "Linux",
+      "filename": "linux.txt",
+      "url": "https://en.wikipedia.org/wiki/Linux",
+      "chars": 40614,
+      "words": 6261
+    },
+    {
+      "title": "Unix",
+      "filename": "unix.txt",
+      "url": "https://en.wikipedia.org/wiki/Unix",
+      "chars": 30685,
+      "words": 4740
+    },
+    {
+      "title": "ARPANET",
+      "filename": "arpanet.txt",
+      "url": "https://en.wikipedia.org/wiki/ARPANET",
+      "chars": 40155,
+      "words": 6090
+    },
+    {
+      "title": "Tim Berners-Lee",
+      "filename": "tim_berners_lee.txt",
+      "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
+      "chars": 16194,
+      "words": 2620
+    },
+    {
+      "title": "Grace Hopper",
+      "filename": "grace_hopper.txt",
+      "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
+      "chars": 28757,
+      "words": 4544
+    },
+    {
+      "title": "Moore's law",
+      "filename": "moore_s_law.txt",
+      "url": "https://en.wikipedia.org/wiki/Moore%27s_law",
+      "chars": 35570,
+      "words": 5429
+    },
+    {
+      "title": "Computer memory",
+      "filename": "computer_memory.txt",
+      "url": "https://en.wikipedia.org/wiki/Computer_memory",
+      "chars": 15218,
+      "words": 2410
+    },
+    {
+      "title": "Hard disk drive",
+      "filename": "hard_disk_drive.txt",
+      "url": "https://en.wikipedia.org/wiki/Hard_disk_drive",
+      "chars": 57451,
+      "words": 9150
+    },
+    {
+      "title": "Computer network",
+      "filename": "computer_network.txt",
+      "url": "https://en.wikipedia.org/wiki/Computer_network",
+      "chars": 50681,
+      "words": 7626
+    },
+    {
+      "title": "Database",
+      "filename": "database.txt",
+      "url": "https://en.wikipedia.org/wiki/Database",
+      "chars": 56738,
+      "words": 8573
+    },
+    {
+      "title": "Compiler",
+      "filename": "compiler.txt",
+      "url": "https://en.wikipedia.org/wiki/Compiler",
+      "chars": 39093,
+      "words": 5834
+    },
+    {
+      "title": "Algorithm",
+      "filename": "algorithm.txt",
+      "url": "https://en.wikipedia.org/wiki/Algorithm",
+      "chars": 28235,
+      "words": 4089
+    },
+    {
+      "title": "Data structure",
+      "filename": "data_structure.txt",
+      "url": "https://en.wikipedia.org/wiki/Data_structure",
+      "chars": 9223,
+      "words": 1388
+    },
+    {
+      "title": "Software engineering",
+      "filename": "software_engineering.txt",
+      "url": "https://en.wikipedia.org/wiki/Software_engineering",
+      "chars": 26461,
+      "words": 3774
+    },
+    {
+      "title": "Cybersecurity",
+      "filename": "cybersecurity.txt",
+      "url": "https://en.wikipedia.org/wiki/Cybersecurity",
+      "chars": 98947,
+      "words": 14673
+    },
+    {
+      "title": "Cloud computing",
+      "filename": "cloud_computing.txt",
+      "url": "https://en.wikipedia.org/wiki/Cloud_computing",
+      "chars": 37142,
+      "words": 5316
+    }
+  ],
+  "page_count": 38,
+  "total_chars": 1733862,
+  "total_words": 264705
+}

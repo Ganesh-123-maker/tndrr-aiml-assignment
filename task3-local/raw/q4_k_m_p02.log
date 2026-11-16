@@ -1,0 +1,52 @@
+CMD settings: temp=0.0 seed=42 n=128 threads=4 ctx=512
+PROMPT: A shop sells notebooks for 45 rupees each. If Priya buys 7 notebooks and pays with a 500-rupee note, how much change does she get? Show the calculation.
+
+--- STDOUT (raw llama-cli output) ---
+
+
+Loading model... |-\|/-\|/ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12441-164ab018f
+model      : /home/hatch/workspace/tndrr-aiml-assignment/task3-local/models/qwen2.5-0.5b-instruct-q4_k_m.gguf
+ftype      : Q4_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> A shop sells notebooks for 45 rupees each. If Priya buys 7 notebooks and pays with a 500-rupee note, how much change does she get? Show the calculation.
+To determine how much change Priya gets, we need to follow these steps:
+
+1. Calculate the total cost of 7 notebooks.
+2. Subtract the total cost from the amount Priya paid.
+
+First, let's calculate the total cost of 7 notebooks. Each notebook costs 45 rupees, so:
+
+\[ 7 \text{ notebooks} \times 45 \text{ rupees/notebook} = 315 \text{ rupees} \]
+
+Next, we subtract the total cost from the amount Priya paid. Priya paid with a 500-rupee note, so
+
+[ Prompt: 99.3 t/s | Generation: 16.1 t/s ]
+
+
+Exiting...
+
+
+--- STDERR ---
+
+--- PARSED ---
+prompt_eval_tps=99.3 gen_tps=16.1 peak_rss_mb=578.5 wall_s=9.65
