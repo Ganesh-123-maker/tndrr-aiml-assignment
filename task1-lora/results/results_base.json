@@ -1,0 +1,26 @@
+{
+  "n": 100,
+  "exact_match_accuracy": 0.52,
+  "valid_json_rate": 1.0,
+  "per_field_accuracy": {
+    "title": 0.95,
+    "author": 1.0,
+    "genre": 0.57,
+    "year": 1.0
+  },
+  "exact_match_count": 52,
+  "valid_json_count": 100,
+  "per_field_counts": {
+    "title": 95,
+    "author": 100,
+    "genre": 57,
+    "year": 100
+  },
+  "decoding": {
+    "greedy": true,
+    "do_sample": false,
+    "max_new_tokens": 80
+  },
+  "eval_seconds": 1400.8,
+  "model": "model_qwen (base)"
+}

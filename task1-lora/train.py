@@ -128,7 +128,7 @@ def main():
                              "(prompt tokens masked with -100)",
                      "optimizer": "adamw_torch (Trainer default)",
                      "lr_scheduler": "linear (Trainer default)",
-                     "warmup_ratio": 0.03},
+                     "warmup_steps": 5},
         "device": device,
         "train_file": args.train_file,
         "max_examples": args.max_examples,
@@ -149,7 +149,9 @@ def main():
         gradient_accumulation_steps=args.grad_accum,
         num_train_epochs=args.epochs,
         learning_rate=args.lr,
-        warmup_ratio=0.03,
+        # transformers 5.x removed warmup_ratio; 5 steps ≈ 3% of the
+        # 150 total steps of a full run (50 steps/epoch x 3 epochs)
+        warmup_steps=5,
         logging_steps=10,
         save_strategy="no",
         report_to=[],

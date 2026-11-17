@@ -2,10 +2,13 @@
 """Build report/tndrr-aiml-report.pdf (max 4 pages).
 
 Every number below is copied from a results JSON in the repo:
+- task1-lora/results/results_base.json, results_finetuned.json
+  (exact-match / valid-JSON / per-field)
 - task2-rag/eval/results.json (recall@5 / recall@1)
 - task3-local/results_f16.json, results_q4_k_m.json (tok/s, RSS)
 - task1-lora/memory_calculation.md (7B memory working)
-Task 1 fine-tuned numbers are PENDING (see report) — no invented values.
+No number is invented; Task 1's 1.00 is reported with its limit
+(templated synthetic task) in the text.
 """
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
@@ -80,9 +83,7 @@ story.append(P("Barmavath Ganesh · B.Tech CSE, IIIT Guwahati · "
 story.append(HRFlowable(width="100%", thickness=0.6, color=GREY))
 story.append(P("All numbers are from my own runs on a CPU-only VM (4 CPUs, ~7 GB RAM, "
                "no GPU) unless labelled a calculation. Raw results JSON files sit next "
-               "to the code that produced them. One honest gap up front: Task 1 has no "
-               "measured numbers yet — the model download failed on this machine and "
-               "one Colab run is still pending (see Task 1).", "small"))
+               "to the code that produced them.", "small"))
 
 # ---------------- Task 1 ----------------
 story.append(P("Task 1 — LoRA fine-tuning (plain English → fixed JSON)", "h1"))
@@ -103,16 +104,34 @@ story.append(P("<b>Why these settings.</b> Rank 16 keeps the adapter small (~1.1
                "range (full-FT LRs would be far too small for an adapter alone); "
                "3 epochs is the sweet spot for 800 examples before memorisation.",
                "body"))
-story.append(P("<b>Status — results pending one Colab run.</b> The code, data and eval "
-               "harness are complete, but no training or evaluation ran here: "
-               "downloading Qwen2.5-0.5B from Hugging Face failed (403 from HF's Xet "
-               "server) and was not retried. A ready-to-run notebook "
-               "(<i>task1-lora/colab_finetune.ipynb</i>, T4 GPU, ~15–30 min) runs the "
-               "same train.py + eval.py and writes results_base.json / "
-               "results_finetuned.json. The base-vs-fine-tuned table will be filled "
-               "from those files; no number is claimed until then. The three "
-               "failure examples the task asks for will come from the fine-tuned "
-               "model's test errors in that run.", "body"))
+story.append(P("<b>Results (n=100 held-out test, greedy decoding).</b> Trained on "
+               "CPU: 3 epochs, 800 examples, 150 optimiser steps, 157.7 min wall "
+               "clock, average train loss 0.01554. Base eval 1,400.8 s; fine-tuned "
+               "eval 1,236.3 s.", "body"))
+story.append(tbl(
+    ["Metric (n=100)", "Base Qwen2.5-0.5B", "+ LoRA fine-tuned"],
+    [["Exact-match accuracy", "0.52 (52/100)", "<b>1.00 (100/100)</b>"],
+     ["Valid-JSON rate", "1.00 (100/100)", "1.00 (100/100)"],
+     ["Per-field: title / author / genre / year",
+      "0.95 / 1.00 / 0.57 / 1.00", "1.00 / 1.00 / 1.00 / 1.00"]],
+    [52*mm, 48*mm, 48*mm]))
+story.append(P("<b>Failures.</b> The fine-tuned model made <b>0 errors</b> on the "
+               "test set, so there are no fine-tuned failure examples — the three "
+               "examples below are the base model's, with why fine-tuning fixed "
+               "them. (1) Genre casing — 42 of the base model's 48 errors: it "
+               "outputs “Science Fiction” where the gold label is lowercase "
+               "“science fiction”; exact-match is case-sensitive. (2) Whole-request "
+               "title — all 5 title errors come from the “Catalogue … — … — …” "
+               "template, where the base model copies the entire request into the "
+               "title field instead of extracting just the title. (3) Genre + year "
+               "compounding — the same two causes together, with the year as a "
+               "string (“1985”) instead of an integer. Every base failure is a "
+               "format convention, which is exactly what 3 epochs on 800 examples "
+               "teaches. Honest limit: this is a templated synthetic task (10 "
+               "templates, 12 genres, disjoint title/author pools), so 1.00 measures "
+               "format learning + verbatim copying of unseen names, not general "
+               "book knowledge; on an unseen phrasing the fine-tuned model could be "
+               "worse than base.", "body"))
 story.append(P("7B fine-tuning memory — worked calculation (decimal GB, 1 GB = 10<sup>9</sup> B; "
                "AdamW keeps m+v in fp32, 8 B/param; activations ≈2–4 GB small batch)", "h2"))
 story.append(tbl(

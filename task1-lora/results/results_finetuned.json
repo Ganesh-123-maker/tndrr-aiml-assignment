@@ -1,0 +1,26 @@
+{
+  "n": 100,
+  "exact_match_accuracy": 1.0,
+  "valid_json_rate": 1.0,
+  "per_field_accuracy": {
+    "title": 1.0,
+    "author": 1.0,
+    "genre": 1.0,
+    "year": 1.0
+  },
+  "exact_match_count": 100,
+  "valid_json_count": 100,
+  "per_field_counts": {
+    "title": 100,
+    "author": 100,
+    "genre": 100,
+    "year": 100
+  },
+  "decoding": {
+    "greedy": true,
+    "do_sample": false,
+    "max_new_tokens": 80
+  },
+  "eval_seconds": 1236.3,
+  "model": "model_qwen + LoRA adapter (adapter)"
+}

@@ -22,3 +22,10 @@ task1-lora/adapter/
 # Local run artefacts (keep results JSON; ignore large caches)
 *.db
 *.sqlite
+
+# Task 1 local run artefacts (weights, logs, pipeline markers)
+task1-lora/model_qwen/
+task1-lora/train_full.log
+task1-lora/train_full.log.1
+task1-lora/eval_full.log
+task1-lora/PIPELINE_DONE
